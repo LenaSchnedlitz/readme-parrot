@@ -1,0 +1,26 @@
+{
+  "name": "readme-parrot",
+  "short_name": "readme-parrot",
+  "theme_color": "#c7c56b",
+  "background_color": "#fefefe",
+  "display": "minimal-ui",
+  "start_url": "/readme-parrot",
+  "icons": [
+    {
+      "src": "logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "app.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

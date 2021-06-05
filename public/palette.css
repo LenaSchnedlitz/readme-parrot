@@ -1,0 +1,97 @@
+:root {
+  --gray-1: #fefefe;
+  --gray-2: #dfdfdf;
+  --gray-3: #c2c2c2;
+  --gray-4: #a4a4a4;
+  --gray-5: #878787;
+  --gray-6: #686868;
+  --gray-7: #4b4b4b;
+  --gray-8: #2d2d2d;
+  --gray-9: #111111;
+
+  --primary-color-1: #f9f8dc;
+  --primary-color-2: #f3f1ba;
+  --primary-color-3: #eceb97;
+  --primary-color-4: #e6e475;
+  --primary-color-5: #e0dd52;
+  --primary-color-6: #b3b142;
+  --primary-color-7: #868531;
+  --primary-color-8: #5a5821;
+  --primary-color-9: #2d2c10;
+
+  --primary-color: var(--primary-color-5);
+
+  --secondary-color-2: #f9bcc3;
+  --secondary-color-3: #f69ba5;
+  --secondary-color-4: #f37987;
+  --secondary-color-5: #f05869;
+  --secondary-color-6: #c04654;
+  --secondary-color-7: #90353f;
+  --secondary-color-8: #60232a;
+
+  --secondary-color: var(--secondary-color-5);
+}
+
+@media (prefers-color-scheme: dark) {
+  body:not(.light) {
+    --gray-1: #111111;
+    --gray-2: #2d2d2d;
+    --gray-3: #4b4b4b;
+    --gray-4: #686868;
+    --gray-5: #878787;
+    --gray-6: #a4a4a4;
+    --gray-7: #c2c2c2;
+    --gray-8: #dfdfdf;
+    --gray-9: #fefefe;
+
+    --primary-color-1: #2d2c10;
+    --primary-color-2: #5a5821;
+    --primary-color-3: #868531;
+    --primary-color-4: #b3b142;
+    --primary-color-5: #e0dd52;
+    --primary-color-6: #e6e475;
+    --primary-color-7: #eceb97;
+    --primary-color-8: #f3f1ba;
+    --primary-color-9: #f9f8dc;
+
+    --secondary-color-2: #60232a;
+    --secondary-color-3: #90353f;
+    --secondary-color-4: #c04654;
+    --secondary-color-5: #f05869;
+    --secondary-color-6: #f37987;
+    --secondary-color-7: #f69ba5;
+    --secondary-color-8: #f9bcc3;
+  }
+}
+
+@media all {
+  body.dark {
+    --gray-1: #111111;
+    --gray-2: #2d2d2d;
+    --gray-3: #4b4b4b;
+    --gray-4: #686868;
+    --gray-5: #878787;
+    --gray-6: #a4a4a4;
+    --gray-7: #c2c2c2;
+    --gray-8: #dfdfdf;
+    --gray-9: #fefefe;
+
+    --primary-color-1: #2d2c10;
+    --primary-color-2: #5a5821;
+    --primary-color-3: #868531;
+    --primary-color-4: #b3b142;
+    --primary-color-5: #e0dd52;
+    --primary-color-6: #e6e475;
+    --primary-color-7: #eceb97;
+    --primary-color-8: #f3f1ba;
+    --primary-color-9: #f9f8dc;
+
+    --secondary-color-2: #60232a;
+    --secondary-color-3: #90353f;
+    --secondary-color-4: #c04654;
+    --secondary-color-5: #f05869;
+    --secondary-color-6: #f37987;
+    --secondary-color-7: #f69ba5;
+    --secondary-color-8: #f9bcc3;
+  }
+}

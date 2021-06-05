@@ -1,0 +1,25 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src: url('https://www.lenaschnedlitz.me/fonts/Montserrat/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src: url('https://www.lenaschnedlitz.me/fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  src: url('https://www.lenaschnedlitz.me/fonts/Montserrat/Montserrat-ExtraBold.woff2') format('woff2');
+}
+
+:root {
+  --sans-serif: 'Montserrat', 'Proxima Nova', 'Poppins', 'Open Sans', sans-serif;
+  --monospace: 'Inconsolata', 'Consolas', 'Ubuntu Mono', monospace;
+}
