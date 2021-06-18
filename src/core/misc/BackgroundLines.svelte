@@ -9,8 +9,17 @@
     position: absolute;
     bottom: 0;
     left: -10%;
-    stroke: var(--primary-color);
+    stroke: var(--primary-color-1);
     stroke-width: 5px;
-    transition: all ease-out 10s;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :global(body:not(.light)) svg {
+      stroke: var(--primary-color-2);
+    }
+  }
+
+  :global(body.dark) svg {
+    stroke: var(--primary-color-2);
   }
 </style>

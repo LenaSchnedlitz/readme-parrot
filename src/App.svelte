@@ -7,6 +7,7 @@
   import Title from './core/Title.svelte';
   import DarkModeToggle from './core/stickies/DarkModeToggle.svelte';
   import Scroller from './core/stickies/Scroller.svelte';
+  import BackgroundLines from './core/misc/BackgroundLines.svelte';
 
   let initiate: () => void;
 
@@ -30,12 +31,7 @@
         Intriguing Call to Action <!-- TODO -->
       </CallToAction>
     </section>
-    <!--
-        TODO some background ideas - uncomment/replace/edit however you like
-        <BackgroundBlurredBlob/>
-        <BackgroundBlob/>
-        <BackgroundLines/>
-    -->
+    <BackgroundLines />
     <DarkModeToggle />
     <Scroller>Get started</Scroller>
   </section>
@@ -57,14 +53,17 @@
   .landing {
     position: relative;
     height: 100vh;
-    background: linear-gradient(to top right, var(--primary-color-2), var(--primary-color-1));
 
-    /* TODO background pattern - uncomment/replace/edit however you like
-    background-color: var(--primary-color-1);
-    background-image: radial-gradient(circle, var(--primary-color-2) 10%, transparent 10%), radial-gradient(circle, var(--primary-color-2) 10%, transparent 10%);
-    background-size: 30px 30px;
-    background-position: 0 0, 15px 15px;
-     */
+    background: radial-gradient(circle, var(--primary-color-1) 0, transparent 100%),
+      radial-gradient(circle at left, var(--primary-color-2) 0, transparent 20%),
+      radial-gradient(circle at right, var(--tertiary-color-2) 0, transparent 10%),
+      radial-gradient(ellipse at top right, var(--primary-color-2) 7%, transparent 20%),
+      radial-gradient(ellipse at top, var(--primary-color-2) 0, transparent 50%),
+      radial-gradient(ellipse at top left, var(--tertiary-color-2) 0, transparent 20%),
+      radial-gradient(ellipse at bottom right, var(--primary-color-2) 0, transparent 20%),
+      radial-gradient(ellipse at bottom, var(--primary-color-2) 0, transparent 50%),
+      radial-gradient(ellipse at bottom left, var(--primary-color-2) 0, transparent 50%),
+      linear-gradient(to bottom right, var(--tertiary-color-2) 0, var(--primary-color-2) 100%);
   }
 
   .intro {
@@ -85,5 +84,19 @@
   .content {
     position: relative;
     min-height: 100vh;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :global(body:not(.light)) .landing {
+      background: radial-gradient(circle at top left, var(--tertiary-color-2) -50%, transparent 40%),
+        radial-gradient(circle at right, var(--tertiary-color-2) -100%, transparent 20%),
+        linear-gradient(to top right, var(--primary-color-3) 0, var(--primary-color-2) 100%);
+    }
+  }
+
+  :global(body.dark) .landing {
+    background: radial-gradient(circle at top left, var(--tertiary-color-2) -50%, transparent 40%),
+      radial-gradient(circle at right, var(--tertiary-color-2) -100%, transparent 20%),
+      linear-gradient(to top right, var(--primary-color-3) 0, var(--primary-color-2) 100%);
   }
 </style>

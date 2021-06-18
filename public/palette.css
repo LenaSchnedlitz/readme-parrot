@@ -21,15 +21,25 @@
 
   --primary-color: var(--primary-color-5);
 
-  --secondary-color-2: #f9bcc3;
-  --secondary-color-3: #f69ba5;
-  --secondary-color-4: #f37987;
-  --secondary-color-5: #f05869;
-  --secondary-color-6: #c04654;
-  --secondary-color-7: #90353f;
-  --secondary-color-8: #60232a;
+  --secondary-color-2: #b9d6f3;
+  --secondary-color-3: #97c2ec;
+  --secondary-color-4: #74ade6;
+  --secondary-color-5: #5199e0;
+  --secondary-color-6: #417ab3;
+  --secondary-color-7: #315c86;
+  --secondary-color-8: #203d5a;
 
   --secondary-color: var(--secondary-color-5);
+
+  --tertiary-color-2: #f9bcc3;
+  --tertiary-color-3: #f69ba5;
+  --tertiary-color-4: #f37987;
+  --tertiary-color-5: #f05869;
+  --tertiary-color-6: #c04654;
+  --tertiary-color-7: #90353f;
+  --tertiary-color-8: #60232a;
+
+  --tertiary-color: var(--tertiary-color-5);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,13 +64,25 @@
     --primary-color-8: #f3f1ba;
     --primary-color-9: #f9f8dc;
 
-    --secondary-color-2: #60232a;
-    --secondary-color-3: #90353f;
-    --secondary-color-4: #c04654;
-    --secondary-color-5: #f05869;
-    --secondary-color-6: #f37987;
-    --secondary-color-7: #f69ba5;
-    --secondary-color-8: #f9bcc3;
+    --secondary-color-2: #203d5a;
+    --secondary-color-3: #315c86;
+    --secondary-color-4: #417ab3;
+    --secondary-color-5: #5199e0;
+    --secondary-color-6: #74ade6;
+    --secondary-color-7: #97c2ec;
+    --secondary-color-8: #b9d6f3;
+
+    --tertiary-color-2: #60232a;
+    --tertiary-color-3: #90353f;
+    --tertiary-color-4: #c04654;
+    --tertiary-color-5: #f05869;
+    --tertiary-color-6: #f37987;
+    --tertiary-color-7: #f69ba5;
+    --tertiary-color-8: #f9bcc3;
+  }
+
+  body:not(.light) ::selection {
+    background: var(--secondary-color-6);
   }
 }
 
@@ -86,12 +108,24 @@
     --primary-color-8: #f3f1ba;
     --primary-color-9: #f9f8dc;
 
-    --secondary-color-2: #60232a;
-    --secondary-color-3: #90353f;
-    --secondary-color-4: #c04654;
-    --secondary-color-5: #f05869;
-    --secondary-color-6: #f37987;
-    --secondary-color-7: #f69ba5;
-    --secondary-color-8: #f9bcc3;
+    --secondary-color-2: #203d5a;
+    --secondary-color-3: #315c86;
+    --secondary-color-4: #417ab3;
+    --secondary-color-5: #5199e0;
+    --secondary-color-6: #74ade6;
+    --secondary-color-7: #97c2ec;
+    --secondary-color-8: #b9d6f3;
+
+    --tertiary-color-2: #60232a;
+    --tertiary-color-3: #90353f;
+    --tertiary-color-4: #c04654;
+    --tertiary-color-5: #f05869;
+    --tertiary-color-6: #f37987;
+    --tertiary-color-7: #f69ba5;
+    --tertiary-color-8: #f9bcc3;
+  }
+
+  body.dark ::selection {
+    background: var(--secondary-color-6);
   }
 }
