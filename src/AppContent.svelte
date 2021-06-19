@@ -15,7 +15,7 @@
 </script>
 
 <section>
-  Put your content here... <!-- TODO -->
+  <article># Title _Tagline_ ## Quickstart ```sh # TODO ``` # TODO</article>
   <Appear hidden={finishHidden}>
     <Button primary onclick={completeProcess}><Icon fat name="heart" /> Done!</Button>
     <!-- TODO -->
@@ -26,7 +26,7 @@
   section {
     position: relative;
     width: calc(100% - calc(var(--frame) * 4));
-    margin: var(--frame) auto;
+    /* margin: var(--frame) auto; */
 
     display: flex;
     flex-direction: column;

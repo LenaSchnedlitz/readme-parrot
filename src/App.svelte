@@ -8,6 +8,7 @@
   import DarkModeToggle from './core/stickies/DarkModeToggle.svelte';
   import Scroller from './core/stickies/Scroller.svelte';
   import BackgroundLines from './core/misc/BackgroundLines.svelte';
+  import Icon from './components/Icon.svelte';
 
   let initiate: () => void;
 
@@ -24,11 +25,10 @@
       README Parrot
     </Title>
     <section class="intro">
-      <Tagline>
-        Tagline why my project is <strong>amazing</strong> and you should definitely try it out <!-- TODO -->
-      </Tagline>
+      <Tagline>Because all your <strong>READMEs</strong> are kind of the same.</Tagline>
       <CallToAction onclick={action}>
-        Intriguing Call to Action <!-- TODO -->
+        Start writing now!
+        <Icon name="edit" />
       </CallToAction>
     </section>
     <BackgroundLines />
@@ -90,13 +90,13 @@
     :global(body:not(.light)) .landing {
       background: radial-gradient(circle at top left, var(--tertiary-color-2) -50%, transparent 40%),
         radial-gradient(circle at right, var(--tertiary-color-2) -100%, transparent 20%),
-        linear-gradient(to top right, var(--primary-color-3) 0, var(--primary-color-2) 100%);
+        radial-gradient(circle at bottom left, var(--primary-color-3) 0, var(--primary-color-2) 200%);
     }
   }
 
   :global(body.dark) .landing {
     background: radial-gradient(circle at top left, var(--tertiary-color-2) -50%, transparent 40%),
       radial-gradient(circle at right, var(--tertiary-color-2) -100%, transparent 20%),
-      linear-gradient(to top right, var(--primary-color-3) 0, var(--primary-color-2) 100%);
+      radial-gradient(circle at bottom left, var(--primary-color-3) 0, var(--primary-color-2) 200%);
   }
 </style>
