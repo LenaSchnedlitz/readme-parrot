@@ -11,7 +11,7 @@
     "analyse:watch": "svelte-check --watch",
     "analyse": "svelte-check",
     "lint": "eslint src/**/*",
-    "prettify": "prettier --write src/**/* scripts/*.js public/*.{html,css} *.{config.js,json,yml,md}",
+    "prettify": "prettier --write src/**/* public/*.{html,css} *.{config.js,json,yml,md}",
     "prepare": "husky install"
   },
   "devDependencies": {
