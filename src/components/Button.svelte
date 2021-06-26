@@ -1,9 +1,10 @@
 <script lang="ts">
   export let primary = false;
+  export let slim = false;
   export let onclick: () => void;
 </script>
 
-<button on:click={onclick} class:primary>
+<button on:click={onclick} class:primary class:slim>
   <slot />
 </button>
 
@@ -33,19 +34,24 @@
   button:hover {
     color: var(--gray-1);
     background: linear-gradient(to right, var(--primary-color), var(--primary-color-6));
-    border-color: transparent;
+    border-color: var(--primary-color-6);
     box-shadow: 2px 5px 16px 2px var(--primary-color-2);
   }
 
   button.primary {
     color: var(--gray-1);
-    background-image: linear-gradient(to right, var(--primary-color), var(--primary-color-4), var(--primary-color));
+    background-image: linear-gradient(to right, var(--primary-color-6), var(--primary-color), var(--primary-color-6));
     background-size: 200% auto;
     border: none;
   }
 
   button.primary:hover {
     background-position: right center;
+  }
+
+  button.slim {
+    margin: 0;
+    padding: 0.5rem 1rem;
   }
 
   @media all and (min-width: 900px) {
