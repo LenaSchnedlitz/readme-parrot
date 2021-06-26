@@ -3,7 +3,7 @@
   "short_name": "readme-parrot",
   "theme_color": "#c7c56b",
   "background_color": "#fefefe",
-  "display": "minimal-ui",
+  "display": "fullscreen",
   "start_url": "/readme-parrot",
   "icons": [
     {

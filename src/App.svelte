@@ -9,13 +9,20 @@
   import Scroller from './core/stickies/Scroller.svelte';
   import BackgroundLines from './core/misc/BackgroundLines.svelte';
   import Icon from './components/Icon.svelte';
-
-  let initiate: () => void;
+  import { onMount } from 'svelte';
 
   const action = () => {
-    initiate();
     document.body.scrollTo(0, window.innerHeight);
   };
+
+  onMount(() => {
+    // workaround for 100vh problem in iOS safari
+    const setFullHeight = () => {
+      document.documentElement.style.setProperty('--full-height', `${window.innerHeight}px`);
+    };
+    window.addEventListener('resize', setFullHeight);
+    setFullHeight();
+  });
 </script>
 
 <main>
@@ -40,7 +47,7 @@
       <Logo />
       README Parrot
     </Title>
-    <AppContent bind:initiate />
+    <AppContent />
   </section>
 </main>
 <Footer author="Lena Schnedlitz" projectLink="https://gitlab.com/LenaSchnedlitz/readme-parrot" />
@@ -52,7 +59,7 @@
 
   .landing {
     position: relative;
-    height: 100vh;
+    height: var(--full-height);
 
     background: radial-gradient(circle, var(--primary-color-1) 0, transparent 100%),
       radial-gradient(circle at left, var(--primary-color-2) 0, transparent 20%),
@@ -69,7 +76,7 @@
   .intro {
     position: absolute;
     padding: 0 calc(var(--frame) * 2);
-    bottom: 15vh;
+    bottom: 20vh;
     z-index: 1;
   }
 
@@ -83,7 +90,7 @@
 
   .content {
     position: relative;
-    min-height: 100vh;
+    min-height: var(--full-height);
   }
 
   @media (prefers-color-scheme: dark) {

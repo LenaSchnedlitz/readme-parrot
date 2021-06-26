@@ -6,6 +6,8 @@ html {
   height: 100%;
   overflow: hidden;
 
+  --full-height: 100vh;
+
   --frame: 20px;
 
   --font-size: 1rem;
@@ -20,7 +22,7 @@ html {
 
 body {
   position: relative;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
