@@ -19,7 +19,55 @@
   src: url('https://www.lenaschnedlitz.me/fonts/Montserrat/Montserrat-ExtraBold.woff2') format('woff2');
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'FeatherIcons';
+  font-weight: 400;
+  src: url('/feather.woff2') format('woff2');
+}
+
 :root {
   --sans-serif: 'Montserrat', 'Proxima Nova', 'Poppins', 'Open Sans', sans-serif;
   --monospace: 'Inconsolata', 'Consolas', 'Ubuntu Mono', monospace;
+}
+
+.fa {
+  font-family: 'FeatherIcons' !important;
+}
+
+.fa-undo:before {
+  content: '\f0e2';
+}
+.fa-repeat:before {
+  content: '\f01e';
+}
+.fa-header:before {
+  content: '\f1dc';
+}
+.fa-bold:before {
+  content: '\f032';
+}
+.fa-italic:before {
+  content: '\f033';
+}
+.fa-code:before {
+  content: '\f121';
+}
+.fa-list-ul:before {
+  content: '\f0ca';
+}
+.fa-check-square:before {
+  content: '\f14a';
+}
+.fa-table:before {
+  content: '\f0ce';
+}
+.fa-link:before {
+  content: '\f0c1';
+}
+.fa-picture-o:before {
+  content: '\f03e';
+}
+.fa-eye:before {
+  content: '\f06e';
 }
