@@ -12,7 +12,7 @@ before_script:
 
 stages:
   - verify
-  - deploy  TODO uncomment this
+  - deploy
 
 🔍 Analyse:
   stage: verify
