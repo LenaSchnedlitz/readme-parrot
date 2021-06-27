@@ -14,7 +14,7 @@
 
 [Key Features](#key-features) · [Installation](#installation) · [How to Use](#how-to-use) · [Contributing](#contributing) · [License](#license)
 
-![Screenshot](preview.jpeg)
+![Screenshot](preview.png)
 
 </div>
 
