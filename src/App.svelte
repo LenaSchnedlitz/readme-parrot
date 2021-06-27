@@ -18,7 +18,9 @@
   onMount(() => {
     // workaround for 100vh problem in iOS safari
     const setFullHeight = () => {
-      document.documentElement.style.setProperty('--full-height', `${window.innerHeight}px`);
+      setTimeout(() => {
+        document.documentElement.style.setProperty('--full-height', `${window.innerHeight}px`);
+      }, 100);
     };
     window.addEventListener('resize', setFullHeight);
     setFullHeight();
