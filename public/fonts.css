@@ -23,7 +23,7 @@
   font-display: swap;
   font-family: 'FeatherIcons';
   font-weight: 400;
-  src: url('/feather.woff2') format('woff2');
+  src: url('https://www.lenaschnedlitz.me/readme-parrot/icons.woff2') format('woff2');
 }
 
 :root {
