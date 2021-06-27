@@ -8,7 +8,7 @@
 
 [![Made with Svelte](https://shields.io/badge/Made_with-Svelte-f05869?style=flat)](https://svelte.dev/)
 [![Hosted on GitHub Pages](https://shields.io/badge/Hosted_on-GitHub_Pages-f37e5b?style=flat)](https://github.com/LenaSchnedlitz/readme-parrot)
-[![Probably works](https://shields.io/badge/Probably-works-f6a34d?style=flat)]()
+[![Probably works](https://shields.io/badge/I'm_pretty_sure-it_works-f6a34d?style=flat)]()
 [![Try it out here](https://shields.io/badge/Try_it_out-»_here_«-f9c940?style=flat)](https://www.lenaschnedlitz.me/readme-parrot)
 [![License MIT](https://shields.io/badge/License-MIT-e0dd52?style=flat)](#license)
 
