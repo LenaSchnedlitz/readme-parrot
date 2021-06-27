@@ -1,6 +1,7 @@
 <script lang="ts">
   import Button from './components/Button.svelte';
   import Icon from './components/Icon.svelte';
+  import sampleReadmeContent from './sample-readme-content.js';
   import { onMount } from 'svelte';
   import SimpleMDE from 'simplemde';
   import 'simplemde/dist/simplemde.min.css';
@@ -22,14 +23,14 @@
     simplemde = new SimpleMDE({
       autoDownloadFontAwesome: false,
       autosave: {
-        enabled: true,
+        enabled: false,
         uniqueId: 'readme',
       },
       blockStyles: {
         italic: '_',
       },
       indentWithTabs: false,
-      initialValue: '# Test', // TODO
+      initialValue: sampleReadmeContent,
       toolbar: [
         'undo',
         'redo',
