@@ -12,7 +12,7 @@ before_script:
 
 stages:
   - verify
-#  - deploy  TODO uncomment this
+  - deploy  TODO uncomment this
 
 🔍 Analyse:
   stage: verify
@@ -23,26 +23,26 @@ stages:
   stage: verify
   script:
     - npm run lint
-# TODO uncomment this
-# 📦 Deploy:
-#   stage: deploy
-#   script:
-#     - npm run build
-#     # clone deploy repo and throw away all content but .git/
-#     - git clone https://github.com/${GITLAB_USER_LOGIN}/${DEPLOY_REPO}.git
-#     - mv ${DEPLOY_REPO} ${DEPLOY_REPO}-old
-#     - mkdir ${DEPLOY_REPO}
-#     - mv -t ${DEPLOY_REPO} ${DEPLOY_REPO}-old/.git
-#     # add newly built content
-#     - cp -rf public/* ${DEPLOY_REPO}
-#     - cd ${DEPLOY_REPO}
-#     - sed -i "s/href=\"\//href=\"\/${DEPLOY_REPO}\//" index.html
-#     - sed -i "s/src=\"\//src=\"\/${DEPLOY_REPO}\//" index.html
-#     - git add .
-#     # commit and push
-#     - git config user.name "${GITLAB_USER_NAME}"
-#     - git config user.email ${GITLAB_USER_EMAIL}
-#     - git commit -m ${CI_COMMIT_SHORT_SHA}
-#     - git push https://${GITLAB_USER_LOGIN}:${DEPLOY_TOKEN}@github.com/${GITLAB_USER_LOGIN}/${DEPLOY_REPO}.git HEAD
-#   only:
-#     - main
+
+📦 Deploy:
+  stage: deploy
+  script:
+    - npm run build
+    # clone deploy repo and throw away all content but .git/
+    - git clone https://github.com/${GITLAB_USER_LOGIN}/${DEPLOY_REPO}.git
+    - mv ${DEPLOY_REPO} ${DEPLOY_REPO}-old
+    - mkdir ${DEPLOY_REPO}
+    - mv -t ${DEPLOY_REPO} ${DEPLOY_REPO}-old/.git
+    # add newly built content
+    - cp -rf public/* ${DEPLOY_REPO}
+    - cd ${DEPLOY_REPO}
+    - sed -i "s/href=\"\//href=\"\/${DEPLOY_REPO}\//" index.html
+    - sed -i "s/src=\"\//src=\"\/${DEPLOY_REPO}\//" index.html
+    - git add .
+    # commit and push
+    - git config user.name "${GITLAB_USER_NAME}"
+    - git config user.email ${GITLAB_USER_EMAIL}
+    - git commit -m ${CI_COMMIT_SHORT_SHA}
+    - git push https://${GITLAB_USER_LOGIN}:${DEPLOY_TOKEN}@github.com/${GITLAB_USER_LOGIN}/${DEPLOY_REPO}.git HEAD
+  only:
+    - main
