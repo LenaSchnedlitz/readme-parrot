@@ -13,11 +13,7 @@
   };
   let currentTheme: string;
 
-  let _prefersDarkThemes: boolean;
-  const prefersDarkThemes = () => {
-    _prefersDarkThemes ||= window.matchMedia(DARK_PREFERENCE).matches;
-    return _prefersDarkThemes;
-  };
+  const prefersDarkThemes = () => window.matchMedia(DARK_PREFERENCE).matches;
 
   const applyTheme = () => {
     const preferredTheme = prefersDarkThemes() ? THEMES.DARK : THEMES.LIGHT;
@@ -47,11 +43,14 @@
     applyTheme();
   };
 
-  onMount(applyTheme);
+  onMount(() => {
+    applyTheme();
+    window.matchMedia(DARK_PREFERENCE).addEventListener('change', applyTheme);
+  });
 </script>
 
 <label>
-  <Aria>Light Mode</Aria>
+  <Aria>{currentTheme} mode</Aria>
   <BigScreenOnly ariaHidden="true">{THEMES.DARK}</BigScreenOnly>
   <input type="checkbox" checked={currentTheme !== THEMES.DARK} on:click={toggleTheme} />
   <span class="toggle">
