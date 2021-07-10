@@ -2,7 +2,7 @@
   export let hidden = false;
 </script>
 
-<section class:hidden>
+<section class:hidden data-testid="appear">
   <slot />
 </section>
 

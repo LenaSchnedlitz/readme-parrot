@@ -24,6 +24,11 @@ stages:
   script:
     - npm run lint
 
+🧪 Test:
+  stage: verify
+  script:
+    - npm run test
+
 📦 Deploy:
   stage: deploy
   script:
