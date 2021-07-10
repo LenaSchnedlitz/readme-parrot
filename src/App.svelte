@@ -18,9 +18,7 @@
   onMount(() => {
     // workaround for 100vh problem in iOS safari
     const setFullHeight = () => {
-      setTimeout(() => {
-        document.documentElement.style.setProperty('--full-height', `${window.innerHeight}px`);
-      }, 100);
+      document.documentElement.style.setProperty('--full-height', `${window.innerHeight}px`);
     };
     window.addEventListener('resize', setFullHeight);
     setFullHeight();
@@ -63,15 +61,15 @@
     position: relative;
     height: var(--full-height);
 
-    background: radial-gradient(circle, var(--primary-color-1) 0, transparent 100%),
-      radial-gradient(circle at left, var(--primary-color-2) 0, transparent 20%),
-      radial-gradient(circle at right, var(--tertiary-color-2) 0, transparent 10%),
-      radial-gradient(ellipse at top right, var(--primary-color-2) 7%, transparent 20%),
-      radial-gradient(ellipse at top, var(--primary-color-2) 0, transparent 50%),
-      radial-gradient(ellipse at top left, var(--tertiary-color-2) 0, transparent 20%),
-      radial-gradient(ellipse at bottom right, var(--primary-color-2) 0, transparent 20%),
-      radial-gradient(ellipse at bottom, var(--primary-color-2) 0, transparent 50%),
-      radial-gradient(ellipse at bottom left, var(--primary-color-2) 0, transparent 50%),
+    background: radial-gradient(circle, var(--primary-color-1) 0, var(--primary-color-1-transparent) 100%),
+      radial-gradient(circle at left, var(--primary-color-2) 0, var(--primary-color-2-transparent) 20%),
+      radial-gradient(circle at right, var(--tertiary-color-2) 0, var(--tertiary-color-2-transparent) 10%),
+      radial-gradient(ellipse at top right, var(--primary-color-2) 7%, var(--primary-color-2-transparent) 20%),
+      radial-gradient(ellipse at top, var(--primary-color-2) 0, var(--primary-color-2-transparent) 50%),
+      radial-gradient(ellipse at top left, var(--tertiary-color-2) 0, var(--tertiary-color-2-transparent) 20%),
+      radial-gradient(ellipse at bottom right, var(--primary-color-2) 0, var(--primary-color-2-transparent) 20%),
+      radial-gradient(ellipse at bottom, var(--primary-color-2) 0, var(--primary-color-2-transparent) 50%),
+      radial-gradient(ellipse at bottom left, var(--primary-color-2) 0, var(--primary-color-2-transparent) 50%),
       linear-gradient(to bottom right, var(--tertiary-color-2) 0, var(--primary-color-2) 100%);
   }
 
@@ -97,15 +95,23 @@
 
   @media (prefers-color-scheme: dark) {
     :global(body:not(.light)) .landing {
-      background: radial-gradient(circle at top left, var(--tertiary-color-2) -50%, transparent 40%),
-        radial-gradient(circle at right, var(--tertiary-color-2) -100%, transparent 20%),
+      background: radial-gradient(
+          circle at top left,
+          var(--tertiary-color-2) -50%,
+          var(--tertiary-color-2-transparent) 40%
+        ),
+        radial-gradient(circle at right, var(--tertiary-color-2) -100%, var(--tertiary-color-2-transparent) 20%),
         radial-gradient(circle at bottom left, var(--primary-color-3) 0, var(--primary-color-2) 200%);
     }
   }
 
   :global(body.dark) .landing {
-    background: radial-gradient(circle at top left, var(--tertiary-color-2) -50%, transparent 40%),
-      radial-gradient(circle at right, var(--tertiary-color-2) -100%, transparent 20%),
+    background: radial-gradient(
+        circle at top left,
+        var(--tertiary-color-2) -50%,
+        var(--tertiary-color-2-transparent) 40%
+      ),
+      radial-gradient(circle at right, var(--tertiary-color-2) -100%, var(--tertiary-color-2-transparent) 20%),
       radial-gradient(circle at bottom left, var(--primary-color-3) 0, var(--primary-color-2) 200%);
   }
 </style>

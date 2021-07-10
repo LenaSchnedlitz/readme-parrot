@@ -21,6 +21,9 @@
 
   --primary-color: var(--primary-color-5);
 
+  --primary-color-1-transparent: rgba(249, 248, 220, 0);
+  --primary-color-2-transparent: rgba(243, 241, 186, 0);
+
   --secondary-color-2: #b9d6f3;
   --secondary-color-3: #97c2ec;
   --secondary-color-4: #74ade6;
@@ -40,6 +43,8 @@
   --tertiary-color-8: #60232a;
 
   --tertiary-color: var(--tertiary-color-5);
+
+  --tertiary-color-2-transparent: rgba(249, 188, 195, 0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -79,6 +84,8 @@
     --tertiary-color-6: #f37987;
     --tertiary-color-7: #f69ba5;
     --tertiary-color-8: #f9bcc3;
+
+    --tertiary-color-2-transparent: rgba(96, 35, 42, 0);
   }
 
   body:not(.light) ::selection {
@@ -123,6 +130,8 @@
     --tertiary-color-6: #f37987;
     --tertiary-color-7: #f69ba5;
     --tertiary-color-8: #f9bcc3;
+
+    --tertiary-color-2-transparent: rgba(96, 35, 42, 0);
   }
 
   body.dark ::selection {
