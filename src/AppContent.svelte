@@ -6,7 +6,7 @@
   import SimpleMDE from 'simplemde';
   import 'simplemde/dist/simplemde.min.css';
 
-  let simplemde;
+  let simplemde: SimpleMDE;
   const downloadlink = document.createElement('a');
 
   const download = () => {
