@@ -14,7 +14,7 @@
     "lint": "eslint src/**/*",
     "prettify": "prettier --write src/**/* public/*.{html,css} *.{config.js,json,yml,md}",
     "prepare": "husky install",
-    "deploy": "npm run build && npx gh-pages --dist public/build --dotfiles true"
+    "deploy": "npm run build && npx gh-pages --dist public --dotfiles true"
   },
   "devDependencies": {
     "@babel/preset-env": "7.16.4",
