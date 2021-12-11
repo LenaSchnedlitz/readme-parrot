@@ -254,7 +254,6 @@
   @media all and (min-width: 900px) {
     section {
       width: auto;
-      height: 100vh;
       margin: 0 calc(var(--frame) * 2);
       padding: calc(var(--frame) * 2) 0 calc(var(--frame) * 0.5);
       box-sizing: border-box;

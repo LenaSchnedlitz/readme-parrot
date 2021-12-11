@@ -32,21 +32,19 @@
       README Parrot
     </Title>
     <section class="intro">
-      <Tagline>Because all your <strong>READMEs</strong> are kind of the same.</Tagline>
+      <Tagline>Writing <strong>READMEs</strong> doesn't have to be tedious.</Tagline>
+      <!--
       <CallToAction onclick={action}>
         Start writing now!
         <Icon name="edit" />
       </CallToAction>
+      -->
     </section>
     <BackgroundLines />
     <DarkModeToggle />
     <Scroller>Get started</Scroller>
   </section>
   <section class="content">
-    <Title>
-      <Logo />
-      README Parrot
-    </Title>
     <AppContent />
   </section>
 </main>
@@ -76,14 +74,12 @@
   .intro {
     position: absolute;
     padding: 0 calc(var(--frame) * 2);
-    bottom: 20vh;
     z-index: 1;
   }
 
   @media all and (min-width: 900px) {
     .intro {
-      top: 50vh;
-      bottom: auto;
+      top: calc(var(--frame) * 4);
       padding-right: 30vw;
     }
   }
@@ -91,6 +87,7 @@
   .content {
     position: relative;
     min-height: var(--full-height);
+    margin-top: calc(-0.62 * var(--full-height));
   }
 
   @media (prefers-color-scheme: dark) {
