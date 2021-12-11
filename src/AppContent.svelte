@@ -3,28 +3,27 @@
   import Icon from './components/Icon.svelte';
   import sampleReadmeContent from './sample-readme-content.js';
   import { onMount } from 'svelte';
-  import SimpleMDE from 'simplemde';
-  import 'simplemde/dist/simplemde.min.css';
+  import EasyMDE from 'easymde';
+  import 'easymde/dist/easymde.min.css';
 
-  export let editor;
-  $: editor = simplemde ? simplemde.codemirror : undefined;
-
-  let simplemde: SimpleMDE;
+  let easymde: EasyMDE;
+  export let editor = undefined;
+  $: editor = easymde && easymde.codemirror;
 
   const downloadlink = document.createElement('a');
 
   const download = () => {
     downloadlink.download = 'README.md';
-    downloadlink.href = URL.createObjectURL(new Blob([simplemde.value()], { type: 'text/plain' }));
+    downloadlink.href = URL.createObjectURL(new Blob([easymde.value()], { type: 'text/plain' }));
     downloadlink.click();
   };
 
   const copyToClipBoard = async () => {
-    await navigator.clipboard.writeText(simplemde.value());
+    await navigator.clipboard.writeText(easymde.value());
   };
 
   onMount(() => {
-    simplemde = new SimpleMDE({
+    easymde = new EasyMDE({
       autoDownloadFontAwesome: false,
       autosave: {
         enabled: false,
@@ -71,33 +70,33 @@
     display: none;
   }
 
-  section :global(.editor-toolbar) {
+  section :global(.easymde-toolbar) {
     background: transparent;
     border: none;
     opacity: 1;
   }
 
-  section :global(.editor-toolbar i.separator) {
+  section :global(.easymde-toolbar i.separator) {
     border-left: 1px solid var(--gray-2);
   }
 
-  section :global(.editor-toolbar a) {
+  section :global(.easymde-toolbar a) {
     color: var(--gray-7) !important;
   }
 
-  section :global(.editor-toolbar.disabled-for-preview a) {
+  section :global(.easymde-toolbar.disabled-for-preview a) {
     background: transparent;
     color: var(--gray-5) !important;
   }
 
-  section :global(.editor-toolbar a.active),
-  section :global(.editor-toolbar a:hover) {
+  section :global(.easymde-toolbar a.active),
+  section :global(.easymde-toolbar a:hover) {
     background: transparent;
     border-color: var(--secondary-color);
     color: var(--secondary-color-6) !important;
   }
 
-  section :global(.editor-toolbar.disabled-for-preview a.active:not(.no-disable)) {
+  section :global(.easymde-toolbar.disabled-for-preview a.active:not(.no-disable)) {
     border-color: var(--secondary-color-2);
     color: var(--secondary-color-2) !important;
   }
@@ -192,65 +191,65 @@
     border-bottom: dotted 2px var(--tertiary-color);
   }
 
-  section :global(.editor-statusbar) {
+  section :global(.easymde-statusbar) {
     display: none;
   }
 
-  section :global(.editor-preview) {
+  section :global(.easymde-preview) {
     background: var(--gray-1);
     border: none;
     color: var(--gray-9);
     font-family: var(--sans-serif);
   }
 
-  section :global(.editor-preview a) {
+  section :global(.easymde-preview a) {
     color: var(--secondary-color-6);
   }
 
-  section :global(.editor-preview h1),
-  section :global(.editor-preview h2),
-  section :global(.editor-preview h3),
-  section :global(.editor-preview h4),
-  section :global(.editor-preview h5),
-  section :global(.editor-preview h6),
-  section :global(.editor-preview th),
-  section :global(.editor-preview strong) {
+  section :global(.easymde-preview h1),
+  section :global(.easymde-preview h2),
+  section :global(.easymde-preview h3),
+  section :global(.easymde-preview h4),
+  section :global(.easymde-preview h5),
+  section :global(.easymde-preview h6),
+  section :global(.easymde-preview th),
+  section :global(.easymde-preview strong) {
     font-weight: 600;
   }
 
-  section :global(.editor-preview code) {
+  section :global(.easymde-preview code) {
     font-family: var(--monospace) !important;
   }
 
-  section :global(.editor-preview pre) {
+  section :global(.easymde-preview pre) {
     background: var(--primary-color-1);
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 4px;
   }
 
-  section :global(.editor-preview ul),
-  section :global(.editor-preview ol) {
+  section :global(.easymde-preview ul),
+  section :global(.easymde-preview ol) {
     padding: 0 1.5rem !important;
   }
 
-  section :global(.editor-preview li p) {
+  section :global(.easymde-preview li p) {
     margin: 0.5rem 0 0.5rem 0.25rem !important;
   }
 
-  section :global(.editor-preview table) {
+  section :global(.easymde-preview table) {
     margin-bottom: 1rem;
   }
 
-  section :global(.editor-preview table td),
-  section :global(.editor-preview table th),
-  section :global(.editor-preview-side table td),
-  section :global(.editor-preview-side table th) {
+  section :global(.easymde-preview table td),
+  section :global(.easymde-preview table th),
+  section :global(.easymde-preview-side table td),
+  section :global(.easymde-preview-side table th) {
     border: 1px solid var(--gray-2);
     padding: 5px;
   }
 
-  section :global(.editor-preview hr) {
+  section :global(.easymde-preview hr) {
     margin: 2rem 0;
     border: 1px var(--gray-2);
   }
@@ -292,7 +291,7 @@
       overflow-x: hidden !important;
     }
 
-    section :global(.editor-preview) {
+    section :global(.easymde-preview) {
       padding: calc(var(--frame) * 1) calc(var(--frame) * 1.5);
       border: solid 1px var(--tertiary-color-2);
     }

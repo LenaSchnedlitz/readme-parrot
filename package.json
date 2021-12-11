@@ -52,7 +52,7 @@
     "typescript": "4.5.3"
   },
   "dependencies": {
-    "simplemde": "1.11.2",
+    "easymde": "2.15.0",
     "sirv-cli": "1.0.14"
   }
 }

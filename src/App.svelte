@@ -15,7 +15,10 @@
 
   const action = () => {
     document.body.scrollTo(0, 0.4 * window.innerHeight);
-    // TODO select "Title"
+    if (editor) {
+      editor.focus();
+      editor.doc.setSelection({ line: 3, ch: 2 }, { line: 3, ch: 7 });
+    }
   };
 
   onMount(() => {
