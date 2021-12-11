@@ -11,8 +11,11 @@
   import Icon from './components/Icon.svelte';
   import { onMount } from 'svelte';
 
+  let editor;
+
   const action = () => {
-    document.body.scrollTo(0, window.innerHeight);
+    document.body.scrollTo(0, 0.4 * window.innerHeight);
+    // TODO select "Title"
   };
 
   onMount(() => {
@@ -33,19 +36,17 @@
     </Title>
     <section class="intro">
       <Tagline>Writing <strong>READMEs</strong> doesn't have to be tedious.</Tagline>
-      <!--
       <CallToAction onclick={action}>
         Start writing now!
-        <Icon name="edit" />
+        <Icon name="corner-right-down" />
       </CallToAction>
-      -->
     </section>
     <BackgroundLines />
     <DarkModeToggle />
     <Scroller>Get started</Scroller>
   </section>
   <section class="content">
-    <AppContent />
+    <AppContent bind:editor />
   </section>
 </main>
 <Footer author="Lena Schnedlitz" projectLink="https://gitlab.com/LenaSchnedlitz/readme-parrot" />
@@ -75,6 +76,8 @@
     position: absolute;
     padding: 0 calc(var(--frame) * 2);
     z-index: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   @media all and (min-width: 900px) {

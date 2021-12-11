@@ -6,7 +6,11 @@
   import SimpleMDE from 'simplemde';
   import 'simplemde/dist/simplemde.min.css';
 
+  export let editor;
+  $: editor = simplemde ? simplemde.codemirror : undefined;
+
   let simplemde: SimpleMDE;
+
   const downloadlink = document.createElement('a');
 
   const download = () => {
