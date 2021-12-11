@@ -1,5 +1,6 @@
 @import './fonts.css';
 @import './palette.css';
+@import '/styles/type-scale.css';
 
 html {
   width: 100%;
