@@ -40,13 +40,13 @@
     <section class="intro">
       <Tagline>Writing <strong>READMEs</strong> doesn't have to be tedious.</Tagline>
       <CallToAction onclick={action}>
-        Start writing now!
+        Get started now!
         <Icon name="corner-right-down" />
       </CallToAction>
     </section>
     <BackgroundLines />
     <DarkModeToggle />
-    <Scroller>Get started</Scroller>
+    <Scroller>Scroll down</Scroller>
   </section>
   <section class="content">
     <AppContent bind:editor />
@@ -55,24 +55,11 @@
 <Footer author="Lena Schnedlitz" projectLink="https://gitlab.com/LenaSchnedlitz/readme-parrot" />
 
 <style>
-  main {
-    overflow: hidden;
-  }
-
   .landing {
     position: relative;
     height: var(--full-height);
-
-    background: radial-gradient(circle, var(--primary-color-1) 0, var(--primary-color-1-transparent) 100%),
-      radial-gradient(circle at left, var(--primary-color-2) 0, var(--primary-color-2-transparent) 20%),
-      radial-gradient(circle at right, var(--tertiary-color-2) 0, var(--tertiary-color-2-transparent) 10%),
-      radial-gradient(ellipse at top right, var(--primary-color-2) 7%, var(--primary-color-2-transparent) 20%),
-      radial-gradient(ellipse at top, var(--primary-color-2) 0, var(--primary-color-2-transparent) 50%),
-      radial-gradient(ellipse at top left, var(--tertiary-color-2) 0, var(--tertiary-color-2-transparent) 20%),
-      radial-gradient(ellipse at bottom right, var(--primary-color-2) 0, var(--primary-color-2-transparent) 20%),
-      radial-gradient(ellipse at bottom, var(--primary-color-2) 0, var(--primary-color-2-transparent) 50%),
-      radial-gradient(ellipse at bottom left, var(--primary-color-2) 0, var(--primary-color-2-transparent) 50%),
-      linear-gradient(to bottom right, var(--tertiary-color-2) 0, var(--primary-color-2) 100%);
+    background-image: url('../background.jpg');
+    background-size: cover;
   }
 
   .intro {
@@ -94,27 +81,5 @@
     position: relative;
     min-height: var(--full-height);
     margin-top: calc(-0.62 * var(--full-height));
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :global(body:not(.light)) .landing {
-      background: radial-gradient(
-          circle at top left,
-          var(--tertiary-color-2) -50%,
-          var(--tertiary-color-2-transparent) 40%
-        ),
-        radial-gradient(circle at right, var(--tertiary-color-2) -100%, var(--tertiary-color-2-transparent) 20%),
-        radial-gradient(circle at bottom left, var(--primary-color-3) 0, var(--primary-color-2) 200%);
-    }
-  }
-
-  :global(body.dark) .landing {
-    background: radial-gradient(
-        circle at top left,
-        var(--tertiary-color-2) -50%,
-        var(--tertiary-color-2-transparent) 40%
-      ),
-      radial-gradient(circle at right, var(--tertiary-color-2) -100%, var(--tertiary-color-2-transparent) 20%),
-      radial-gradient(circle at bottom left, var(--primary-color-3) 0, var(--primary-color-2) 200%);
   }
 </style>

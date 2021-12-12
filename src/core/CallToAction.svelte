@@ -9,9 +9,10 @@
 <style>
   button {
     align-self: flex-end;
-    color: var(--gray-9);
+    color: var(--grey-9);
     font-family: var(--monospace);
     font-size: var(--font-size);
+    font-style: italic;
     font-weight: 700;
 
     background: none;

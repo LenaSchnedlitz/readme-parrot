@@ -77,11 +77,10 @@
     border: none;
     box-sizing: border-box;
 
-    font-family: var(--monospace);
     font-size: 0.75rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--primary-color-8);
+    color: #f3f1ba;
 
     --toggle-height: 20px;
   }
@@ -108,8 +107,8 @@
     height: var(--toggle-height);
     margin: 0 0.5em;
 
-    background: var(--primary-color-3);
-    color: var(--primary-color-3);
+    background: #868531;
+    color: #868531;
 
     border-radius: var(--toggle-height);
     cursor: pointer;
@@ -122,7 +121,7 @@
     width: calc(var(--toggle-height) - 2px);
     height: calc(var(--toggle-height) - 2px);
 
-    background: var(--gray-9);
+    background: var(--grey-9);
     box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.2);
 
     border-radius: var(--toggle-height);
@@ -132,7 +131,7 @@
 
   input:checked ~ .toggle:after {
     left: calc(var(--toggle-height) + 1px);
-    background: var(--gray-1);
+    background: var(--grey-1);
   }
 
   .toggleIcons {

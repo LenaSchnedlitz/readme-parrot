@@ -32,14 +32,14 @@
   }
 
   button:hover {
-    color: var(--gray-1);
+    color: var(--grey-1);
     background: linear-gradient(to right, var(--primary-color), var(--primary-color-6));
     border-color: var(--primary-color-6);
     box-shadow: 2px 5px 16px 2px var(--primary-color-2);
   }
 
   button.primary {
-    color: var(--gray-1);
+    color: var(--grey-1);
     background-image: linear-gradient(to right, var(--primary-color-6), var(--primary-color), var(--primary-color-6));
     background-size: 200% auto;
     border: none;
@@ -60,7 +60,7 @@
     }
 
     button:not(.primary):focus-visible {
-      color: var(--gray-1);
+      color: var(--grey-1);
       background: linear-gradient(to right, var(--primary-color), var(--primary-color-6));
       border-color: transparent;
       box-shadow: 2px 5px 16px 2px var(--primary-color-2), 0 0 0 4px var(--secondary-color-3);

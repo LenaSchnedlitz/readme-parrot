@@ -3,7 +3,7 @@ export default '' +
   '\n' +
   '![Logo](public/logo-192.png)\n' +
   '# Title\n' +
-  '#### A short description\n' +
+  '**A short description**\n' +
   '\n' +
   '[![Made with Svelte](https://shields.io/badge/Made_with-Svelte-f05869?style=flat)](https://svelte.dev/)\n' +
   '[![Hosted on GitHub Pages](https://shields.io/badge/Hosted_on-GitHub_Pages-f37e5b?style=flat)]()\n' +
@@ -18,7 +18,11 @@ export default '' +
   '</div>\n' +
   '\n' +
   '## Key Features\n' +
-  'TODO. [Try it out!]()\n' +
+  '* Awesome feature\n' +
+  '* Another one\n' +
+  '* **This is the most amazing one**\n' +
+  '\n' +
+  '[Try it out!]()\n' +
   '\n' +
   '## Installation\n' +
   'To clone and run this application, you need [Git](https://git-scm.com) and [npm](https://npmjs.com).\n' +
@@ -53,9 +57,9 @@ export default '' +
   '```\n' +
   '\n' +
   '## Contributing\n' +
-  'Merge requests and bug reports are welcome. I will try my best to process them as soon as possible, but please be patient - my spare time is (sadly) very limited.\n' +
+  'Pull requests and bug reports are very welcome. I will try my best to process them as soon as possible, but please be patient - my spare time is (sadly) very limited.\n' +
   '\n' +
   '## License\n' +
-  '[MIT](LICENSE) · Credits are much appreciated :heart:\n' +
+  '[MIT](LICENSE) · Credits are much appreciated ❤️\n' +
   '\n' +
   '';

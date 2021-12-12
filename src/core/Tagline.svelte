@@ -5,6 +5,7 @@
 <style>
   p {
     margin: 0;
+    color: #fefefe;
     font-family: var(--sans-serif);
     font-size: 2.2rem;
     font-weight: 600;

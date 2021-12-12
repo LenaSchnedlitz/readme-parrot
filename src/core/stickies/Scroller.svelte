@@ -34,6 +34,7 @@
       color: var(--primary-color-8);
       font-family: var(--monospace);
       font-size: var(--font-size);
+      font-style: italic;
       font-weight: 700;
 
       cursor: pointer;

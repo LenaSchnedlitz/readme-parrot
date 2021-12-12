@@ -59,12 +59,12 @@
 
   a:hover,
   a:focus-visible {
-    color: var(--gray-9);
+    color: var(--grey-9);
   }
 
   a:hover circle,
   a:focus-visible circle {
-    fill: var(--gray-9);
+    fill: var(--grey-9);
   }
 
   a:focus-visible strong {
