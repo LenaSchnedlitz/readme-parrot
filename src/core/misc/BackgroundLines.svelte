@@ -8,7 +8,7 @@
   svg {
     position: absolute;
     bottom: 0;
-    left: -10%;
+    left: -15%;
     stroke: #5a5821;
     stroke-width: 5px;
   }

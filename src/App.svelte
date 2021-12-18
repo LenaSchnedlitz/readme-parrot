@@ -22,12 +22,15 @@
   };
 
   onMount(() => {
-    // workaround for 100vh problem in iOS safari
-    const setFullHeight = () => {
+    // make sure landing height is multiple of 40 (= tile height)
+    // + workaround for 100vh problem in iOS safari
+    const setHeights = () => {
+      const landingHeight = 40 * Math.floor(window.innerHeight / 40);
+      document.documentElement.style.setProperty('--landing-height', `${landingHeight}px`);
       document.documentElement.style.setProperty('--full-height', `${window.innerHeight}px`);
     };
-    window.addEventListener('resize', setFullHeight);
-    setFullHeight();
+    window.addEventListener('resize', setHeights);
+    setHeights();
   });
 </script>
 
@@ -37,6 +40,11 @@
       <Logo />
       README Parrot
     </Title>
+    <BackgroundLines />
+    <DarkModeToggle />
+    <Scroller>Scroll down</Scroller>
+  </section>
+  <section class="content">
     <section class="intro">
       <Tagline>Writing <strong>READMEs</strong> doesn't have to be tedious.</Tagline>
       <CallToAction onclick={action}>
@@ -44,11 +52,6 @@
         <Icon name="corner-right-down" />
       </CallToAction>
     </section>
-    <BackgroundLines />
-    <DarkModeToggle />
-    <Scroller>Scroll down</Scroller>
-  </section>
-  <section class="content">
     <AppContent bind:editor />
   </section>
 </main>
@@ -57,14 +60,15 @@
 <style>
   .landing {
     position: relative;
-    height: var(--full-height);
-    background-image: url('../background.jpg');
-    background-size: cover;
+    height: var(--landing-height);
+    background-color: var(--primary-color);
+    background-image: linear-gradient(to top right, transparent, rgba(255, 255, 255, 0.5)), url('../background.svg');
+    background-repeat: repeat;
+    background-position: right top;
+    overflow: visible;
   }
-
   .intro {
-    position: absolute;
-    padding: 0 calc(var(--frame) * 2);
+    padding: var(--frame) calc(var(--frame) * 2) calc(var(--frame) * 0.5);
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -72,14 +76,15 @@
 
   @media all and (min-width: 900px) {
     .intro {
-      top: calc(var(--frame) * 4);
-      padding-right: 30vw;
+      padding-left: 15vw;
+      padding-right: 15vw;
+      text-align: center;
     }
   }
 
   .content {
     position: relative;
     min-height: var(--full-height);
-    margin-top: calc(-0.62 * var(--full-height));
+    margin-top: calc(-0.84 * var(--full-height));
   }
 </style>

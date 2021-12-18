@@ -1,0 +1,840 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="640" width="1280">
+  <style>
+    .c0 {
+      fill: #e6e47566;
+    }
+    .c1 {
+      fill: #e0dd52;
+    }
+    .c2 {
+      fill: #b3b14233;
+    }
+    .c3 {
+      fill: #f05869;
+    }
+    .c4 {
+      fill: #f37e5b;
+    }
+    .c5 {
+      fill: #f6a34d;
+    }
+    .c6 {
+      fill: #f9c940;
+    }
+    .c7 {
+      fill: #72e675;
+    }
+  </style>
+  <path d="M 40,0 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 0,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="0" y="80" class="c2"></rect>
+  <path d="M 40,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 0,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 40,200 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 0,280 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 40,280 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 40,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 40,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 40,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 40,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 40,520 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 0,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 0,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 40,600 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 80,0 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 40,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 40,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 80,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 40,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 40,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 40,280 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <rect width="40" height="40" x="40" y="280" class="c0"></rect>
+  <path d="M 40,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 40,360 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 80,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 80,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 40,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 80,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 40,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 40,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 120,40 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="80" y="40" class="c1"></rect>
+  <path d="M 80,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 120,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <rect width="40" height="40" x="80" y="160" class="c1"></rect>
+  <path d="M 80,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="80" y="240" class="c2"></rect>
+  <path d="M 80,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="80" y="320" class="c1"></rect>
+  <path d="M 80,400 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 120,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <rect width="40" height="40" x="80" y="440" class="c1"></rect>
+  <path d="M 80,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 120,520 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 80,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 80,640 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 160,40 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 120,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 160,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 120,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 120,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 160,240 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 120,240 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 120,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 160,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <rect width="40" height="40" x="120" y="360" class="c2"></rect>
+  <path d="M 160,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 120,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <rect width="40" height="40" x="120" y="480" class="c2"></rect>
+  <path d="M 160,520 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 120,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 160,640 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 160,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 200,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 160,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 200,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <rect width="40" height="40" x="160" y="160" class="c2"></rect>
+  <rect width="40" height="40" x="160" y="200" class="c1"></rect>
+  <path d="M 160,240 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="160" y="280" class="c1"></rect>
+  <rect width="40" height="40" x="160" y="320" class="c2"></rect>
+  <path d="M 200,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 160,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 200,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 200,520 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 160,560 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 200,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="160" y="600" class="c1"></rect>
+  <path d="M 200,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="200" y="40" class="c0"></rect>
+  <path d="M 240,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 200,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 240,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 200,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="200" y="240" class="c2"></rect>
+  <path d="M 240,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 200,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 240,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 200,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="200" y="440" class="c0"></rect>
+  <path d="M 200,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 240,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="200" y="560" class="c0"></rect>
+  <path d="M 200,640 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 280,0 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <rect width="40" height="40" x="240" y="40" class="c1"></rect>
+  <rect width="40" height="40" x="240" y="80" class="c0"></rect>
+  <path d="M 240,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 240,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 280,240 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="240" y="240" class="c2"></rect>
+  <path d="M 280,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 240,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 280,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 240,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 280,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 280,520 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 280,520 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 280,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 240,640 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 280,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 320,40 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 320,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 280,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 320,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 320,240 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 280,240 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 280,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 280,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 280,360 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 280,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 280,440 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 280,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 280,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 320,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 320,600 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 360,40 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="320" y="40" class="c1"></rect>
+  <path d="M 360,120 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="320" y="120" class="c1"></rect>
+  <path d="M 320,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 320,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 320,280 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 360,280 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 360,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 360,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <rect width="40" height="40" x="320" y="400" class="c2"></rect>
+  <path d="M 360,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 320,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 320,560 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <rect width="40" height="40" x="320" y="560" class="c1"></rect>
+  <path d="M 360,600 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 360,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="360" y="40" class="c0"></rect>
+  <path d="M 360,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 360,160 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 360,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 400,200 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 400,280 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 360,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 400,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 400,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <rect width="40" height="40" x="360" y="400" class="c0"></rect>
+  <path d="M 360,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 400,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 400,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 400,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 360,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="400" y="0" class="c1"></rect>
+  <path d="M 400,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 400,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 440,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 400,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 440,200 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 440,280 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="400" y="280" class="c0"></rect>
+  <path d="M 440,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 440,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 440,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 400,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 400,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 400,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 400,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <rect width="40" height="40" x="400" y="600" class="c2"></rect>
+  <path d="M 440,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="440" y="40" class="c0"></rect>
+  <path d="M 440,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 480,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 440,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="440" y="200" class="c1"></rect>
+  <path d="M 480,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <rect width="40" height="40" x="440" y="280" class="c0"></rect>
+  <rect width="40" height="40" x="440" y="320" class="c2"></rect>
+  <path d="M 440,360 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 480,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 480,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="440" y="480" class="c0"></rect>
+  <rect width="40" height="40" x="440" y="520" class="c1"></rect>
+  <rect width="40" height="40" x="440" y="560" class="c2"></rect>
+  <path d="M 480,600 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <rect width="40" height="40" x="480" y="0" class="c0"></rect>
+  <path d="M 520,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 520,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 520,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 520,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="480" y="200" class="c1"></rect>
+  <path d="M 520,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 520,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 520,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 480,400 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 480,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 520,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 480,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 520,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 480,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 480,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 560,40 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 520,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 520,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 560,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="520" y="160" class="c1"></rect>
+  <rect width="40" height="40" x="520" y="200" class="c0"></rect>
+  <path d="M 520,240 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 560,280 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <rect width="40" height="40" x="520" y="320" class="c1"></rect>
+  <path d="M 560,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 560,440 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 560,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 560,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 520,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 520,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 520,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="560" y="0" class="c0"></rect>
+  <path d="M 560,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 600,120 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 560,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 600,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 600,240 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 600,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 560,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="560" y="320" class="c2"></rect>
+  <path d="M 600,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 560,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 560,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 560,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 560,560 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 560,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 560,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="600" y="0" class="c2"></rect>
+  <path d="M 600,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 600,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 640,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 600,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 600,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 640,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 600,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="600" y="320" class="c1"></rect>
+  <rect width="40" height="40" x="600" y="360" class="c1"></rect>
+  <path d="M 600,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 600,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <rect width="40" height="40" x="600" y="480" class="c0"></rect>
+  <path d="M 600,560 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 640,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 600,640 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 640,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 680,40 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <rect width="40" height="40" x="640" y="80" class="c2"></rect>
+  <path d="M 680,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 640,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 640,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="640" y="240" class="c1"></rect>
+  <path d="M 680,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 640,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 680,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 680,440 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 680,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 680,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <rect width="40" height="40" x="640" y="520" class="c1"></rect>
+  <path d="M 640,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="640" y="600" class="c2"></rect>
+  <rect width="40" height="40" x="680" y="0" class="c1"></rect>
+  <path d="M 720,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 720,120 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 720,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 680,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 680,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 720,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 720,280 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 680,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="680" y="360" class="c0"></rect>
+  <path d="M 680,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 720,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 720,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 720,520 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 720,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="680" y="600" class="c0"></rect>
+  <path d="M 720,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 760,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 720,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 760,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 760,160 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 720,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="720" y="240" class="c1"></rect>
+  <path d="M 760,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 760,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <rect width="40" height="40" x="720" y="360" class="c1"></rect>
+  <path d="M 760,440 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 760,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 760,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 720,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 720,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 720,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 800,40 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 800,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 760,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 760,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 800,160 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 800,200 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 800,280 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 760,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 760,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <rect width="40" height="40" x="760" y="360" class="c1"></rect>
+  <path d="M 800,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 800,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 760,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <rect width="40" height="40" x="760" y="520" class="c1"></rect>
+  <path d="M 800,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 800,640 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="800" y="0" class="c2"></rect>
+  <path d="M 800,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="800" y="80" class="c2"></rect>
+  <path d="M 800,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 840,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="800" y="200" class="c2"></rect>
+  <path d="M 840,280 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="800" y="280" class="c2"></rect>
+  <path d="M 840,360 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 840,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 840,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 800,440 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="800" y="480" class="c0"></rect>
+  <rect width="40" height="40" x="800" y="520" class="c0"></rect>
+  <path d="M 800,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="800" y="600" class="c0"></rect>
+  <path d="M 840,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 880,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 840,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 880,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="840" y="160" class="c1"></rect>
+  <rect width="40" height="40" x="840" y="200" class="c1"></rect>
+  <rect width="40" height="40" x="840" y="240" class="c1"></rect>
+  <path d="M 840,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 880,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 840,400 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 880,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 840,440 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 880,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 840,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="840" y="560" class="c1"></rect>
+  <path d="M 840,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 880,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 880,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="880" y="80" class="c0"></rect>
+  <path d="M 880,160 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 880,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 880,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 880,280 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 880,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 880,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 880,400 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="880" y="400" class="c1"></rect>
+  <path d="M 880,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 920,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 880,560 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <rect width="40" height="40" x="880" y="560" class="c1"></rect>
+  <path d="M 880,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 960,0 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 920,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 920,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <rect width="40" height="40" x="920" y="120" class="c2"></rect>
+  <path d="M 920,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 920,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 960,280 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 960,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 920,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="920" y="360" class="c1"></rect>
+  <rect width="40" height="40" x="920" y="400" class="c0"></rect>
+  <rect width="40" height="40" x="920" y="440" class="c0"></rect>
+  <path d="M 960,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <rect width="40" height="40" x="920" y="520" class="c0"></rect>
+  <path d="M 920,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 920,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 960,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 1000,40 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 960,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1000,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1000,160 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 960,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 1000,280 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1000,280 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 1000,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 1000,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 960,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 960,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <rect width="40" height="40" x="960" y="480" class="c0"></rect>
+  <path d="M 1000,520 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 960,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 1000,600 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <rect width="40" height="40" x="1000" y="0" class="c0"></rect>
+  <path d="M 1000,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 1000,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 1040,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1040,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 1000,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 1000,280 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 1000,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 1000,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 1040,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1040,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <rect width="40" height="40" x="1000" y="440" class="c2"></rect>
+  <rect width="40" height="40" x="1000" y="480" class="c2"></rect>
+  <path d="M 1040,520 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 1000,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="1000" y="600" class="c1"></rect>
+  <path d="M 1040,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1040,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 1040,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="1040" y="120" class="c2"></rect>
+  <path d="M 1080,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1040,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 1080,280 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1080,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1040,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 1040,360 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1080,440 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1080,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 1040,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 1040,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 1040,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <rect width="40" height="40" x="1040" y="600" class="c1"></rect>
+  <path d="M 1120,40 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 1120,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1120,120 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1120,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 1080,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1080,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 1120,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 1120,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1080,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 1080,360 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1120,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 1080,440 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 1120,520 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1120,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1120,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <path d="M 1080,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="1120" y="0" class="c2"></rect>
+  <path d="M 1160,40 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <rect width="40" height="40" x="1120" y="80" class="c2"></rect>
+  <rect width="40" height="40" x="1120" y="120" class="c2"></rect>
+  <path d="M 1120,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 1160,240 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="1120" y="240" class="c0"></rect>
+  <rect width="40" height="40" x="1120" y="280" class="c1"></rect>
+  <path d="M 1120,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 1160,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="1120" y="400" class="c0"></rect>
+  <rect width="40" height="40" x="1120" y="440" class="c0"></rect>
+  <path d="M 1160,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 1160,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="1120" y="560" class="c0"></rect>
+  <path d="M 1120,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 1160,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 1200,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1160,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 1200,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 1160,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1160,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="1160" y="240" class="c0"></rect>
+  <path d="M 1200,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1200,360 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="1160" y="360" class="c1"></rect>
+  <rect width="40" height="40" x="1160" y="400" class="c0"></rect>
+  <path d="M 1160,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 1200,520 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1200,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="1160" y="560" class="c1"></rect>
+  <rect width="40" height="40" x="1160" y="600" class="c1"></rect>
+  <path d="M 1240,40 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c0"></path>
+  <path d="M 1200,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 1200,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1200,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <path d="M 1240,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1240,200 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <path d="M 1240,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 1240,280 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 1200,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 1240,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="1200" y="400" class="c1"></rect>
+  <path d="M 1240,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 1200,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1240,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1200,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c2"></path>
+  <rect width="40" height="40" x="1200" y="600" class="c0"></rect>
+  <path d="M 1280,0 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c2"></path>
+  <rect width="40" height="40" x="1240" y="40" class="c2"></rect>
+  <path d="M 1240,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1240,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c1"></path>
+  <path d="M 1240,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c0"></path>
+  <path d="M 1280,200 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c0"></path>
+  <path d="M 1240,280 a 40,40 0 0 1 40,-40 l 0,40 z" class="c2"></path>
+  <path d="M 1280,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1280,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c1"></path>
+  <path d="M 1240,360 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <path d="M 1240,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c0"></path>
+  <rect width="40" height="40" x="1240" y="440" class="c2"></rect>
+  <path d="M 1280,520 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c1"></path>
+  <rect width="40" height="40" x="1240" y="520" class="c2"></rect>
+  <path d="M 1280,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c2"></path>
+  <path d="M 1240,640 a 40,40 0 0 1 40,-40 l 0,40 z" class="c1"></path>
+  <path d="M 80,560 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <path d="M 120,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <circle cx="132" cy="540" r="4" class="c3"></circle>
+  <path d="M 160,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 80,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 120,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="132" cy="20" r="4" class="c7"></circle>
+  <rect width="40" height="40" x="120" y="40" class="c6"></rect>
+  <path d="M 160,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 120,640 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <path d="M 160,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="172" cy="620" r="4" class="c6"></circle>
+  <path d="M 200,640 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 400,400 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <circle cx="428" cy="380" r="4" class="c5"></circle>
+  <path d="M 440,360 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <rect width="40" height="40" x="400" y="400" class="c6"></rect>
+  <path d="M 440,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 400,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c6"></path>
+  <path d="M 720,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <circle cx="748" cy="500" r="4" class="c4"></circle>
+  <path d="M 760,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <path d="M 760,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c3"></path>
+  <path d="M 760,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <path d="M 800,560 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 1120,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <path d="M 1160,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <circle cx="1172" cy="340" r="4" class="c6"></circle>
+  <path d="M 1200,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c4"></path>
+  <path d="M 280,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <path d="M 320,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="332" cy="100" r="4" class="c5"></circle>
+  <rect width="40" height="40" x="320" y="120" class="c6"></rect>
+  <path d="M 360,160 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 1000,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 1040,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <circle cx="1052" cy="420" r="4" class="c7"></circle>
+  <path d="M 1080,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c4"></path>
+  <path d="M 640,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <circle cx="668" cy="580" r="4" class="c3"></circle>
+  <path d="M 680,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <rect width="40" height="40" x="640" y="600" class="c5"></rect>
+  <path d="M 680,640 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 640,680 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c5"></path>
+  <path d="M 1000,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <circle cx="1028" cy="100" r="4" class="c3"></circle>
+  <path d="M 1040,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <path d="M 1040,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c6"></path>
+  <path d="M 1040,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <path d="M 1080,160 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 240,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <path d="M 280,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <circle cx="292" cy="340" r="4" class="c6"></circle>
+  <path d="M 320,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c5"></path>
+  <path d="M 1160,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <path d="M 1200,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <circle cx="1212" cy="60" r="4" class="c3"></circle>
+  <rect width="40" height="40" x="1200" y="80" class="c5"></rect>
+  <path d="M 1240,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 640,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <path d="M 680,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="692" cy="300" r="4" class="c5"></circle>
+  <path d="M 720,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 640,400 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <circle cx="668" cy="380" r="4" class="c5"></circle>
+  <path d="M 680,360 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <rect width="40" height="40" x="640" y="400" class="c7"></rect>
+  <path d="M 680,440 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 640,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 0,160 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <circle cx="28" cy="140" r="4" class="c4"></circle>
+  <path d="M 40,120 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <path d="M 40,200 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 40,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <path d="M 80,200 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 880,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 920,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="932" cy="20" r="4" class="c7"></circle>
+  <path d="M 960,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c6"></path>
+  <path d="M 200,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <path d="M 240,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <circle cx="252" cy="180" r="4" class="c6"></circle>
+  <rect width="40" height="40" x="240" y="200" class="c4"></rect>
+  <path d="M 280,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c4"></path>
+  <path d="M 1000,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <path d="M 1040,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="1052" cy="220" r="4" class="c5"></circle>
+  <path d="M 1080,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 800,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <circle cx="828" cy="420" r="4" class="c3"></circle>
+  <path d="M 840,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <rect width="40" height="40" x="800" y="440" class="c7"></rect>
+  <path d="M 840,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 800,520 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 120,280 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <circle cx="148" cy="260" r="4" class="c4"></circle>
+  <path d="M 160,240 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <path d="M 160,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c6"></path>
+  <path d="M 160,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <path d="M 200,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 760,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c4"></path>
+  <path d="M 800,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <circle cx="812" cy="300" r="4" class="c4"></circle>
+  <path d="M 840,360 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 40,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <path d="M 80,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="92" cy="420" r="4" class="c5"></circle>
+  <rect width="40" height="40" x="80" y="440" class="c3"></rect>
+  <path d="M 120,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 160,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <path d="M 200,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <circle cx="212" cy="20" r="4" class="c6"></circle>
+  <path d="M 240,40 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 240,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <circle cx="268" cy="580" r="4" class="c5"></circle>
+  <path d="M 280,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <rect width="40" height="40" x="240" y="600" class="c6"></rect>
+  <path d="M 280,640 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 240,680 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c6"></path>
+  <path d="M 1000,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <circle cx="1028" cy="420" r="4" class="c6"></circle>
+  <path d="M 1040,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <path d="M 1040,480 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c5"></path>
+  <path d="M 1040,440 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <path d="M 1080,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 1160,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <path d="M 1200,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <circle cx="1212" cy="100" r="4" class="c6"></circle>
+  <path d="M 1240,160 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 1200,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <path d="M 1240,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="1252" cy="420" r="4" class="c5"></circle>
+  <rect width="40" height="40" x="1240" y="440" class="c6"></rect>
+  <path d="M 1280,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 80,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <path d="M 120,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="132" cy="580" r="4" class="c5"></circle>
+  <path d="M 160,600 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 1120,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <circle cx="1148" cy="300" r="4" class="c5"></circle>
+  <path d="M 1160,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <rect width="40" height="40" x="1120" y="320" class="c3"></rect>
+  <path d="M 1160,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 1120,400 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c3"></path>
+  <path d="M 760,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <circle cx="788" cy="20" r="4" class="c5"></circle>
+  <path d="M 800,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <path d="M 800,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c6"></path>
+  <path d="M 800,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <path d="M 840,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 600,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <path d="M 640,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <circle cx="652" cy="60" r="4" class="c3"></circle>
+  <path d="M 680,120 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c4"></path>
+  <path d="M 1000,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 1040,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <circle cx="1052" cy="20" r="4" class="c7"></circle>
+  <rect width="40" height="40" x="1040" y="40" class="c5"></rect>
+  <path d="M 1080,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 480,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <path d="M 520,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <circle cx="532" cy="60" r="4" class="c3"></circle>
+  <path d="M 560,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 280,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <circle cx="308" cy="420" r="4" class="c7"></circle>
+  <path d="M 320,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <rect width="40" height="40" x="280" y="440" class="c5"></rect>
+  <path d="M 320,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 280,520 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c5"></path>
+  <path d="M 600,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <circle cx="628" cy="500" r="4" class="c6"></circle>
+  <path d="M 640,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <path d="M 640,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 640,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <path d="M 680,560 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 80,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <path d="M 120,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <circle cx="132" cy="500" r="4" class="c5"></circle>
+  <path d="M 160,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c4"></path>
+  <path d="M 920,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <path d="M 960,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <circle cx="972" cy="180" r="4" class="c6"></circle>
+  <rect width="40" height="40" x="960" y="200" class="c5"></rect>
+  <path d="M 1000,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 920,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 960,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <circle cx="972" cy="340" r="4" class="c7"></circle>
+  <path d="M 1000,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 960,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <circle cx="988" cy="20" r="4" class="c5"></circle>
+  <path d="M 1000,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <rect width="40" height="40" x="960" y="40" class="c3"></rect>
+  <path d="M 1000,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 960,120 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c3"></path>
+  <path d="M 840,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c4"></path>
+  <circle cx="868" cy="300" r="4" class="c3"></circle>
+  <path d="M 880,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <path d="M 880,360 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c4"></path>
+  <path d="M 880,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <path d="M 920,360 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c4"></path>
+  <path d="M 400,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c4"></path>
+  <path d="M 440,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="452" cy="180" r="4" class="c4"></circle>
+  <path d="M 480,240 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c6"></path>
+  <path d="M 480,280 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 520,240 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="532" cy="260" r="4" class="c7"></circle>
+  <rect width="40" height="40" x="520" y="280" class="c6"></rect>
+  <path d="M 560,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 200,320 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <path d="M 240,280 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="252" cy="300" r="4" class="c6"></circle>
+  <path d="M 280,320 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 1240,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c6"></path>
+  <circle cx="1268" cy="20" r="4" class="c5"></circle>
+  <path d="M 1280,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <rect width="40" height="40" x="1240" y="40" class="c6"></rect>
+  <path d="M 1280,80 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 1240,120 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c6"></path>
+  <path d="M 120,640 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <circle cx="148" cy="620" r="4" class="c3"></circle>
+  <path d="M 160,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <path d="M 160,680 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c5"></path>
+  <path d="M 160,640 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <path d="M 200,680 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c5"></path>
+  <path d="M 0,40 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 40,0 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="52" cy="20" r="4" class="c7"></circle>
+  <path d="M 80,80 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c3"></path>
+  <path d="M 800,80 a 40,40 0 0 1 40,-40 l 0,40 z" class="c4"></path>
+  <path d="M 840,40 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="852" cy="60" r="4" class="c4"></circle>
+  <rect width="40" height="40" x="840" y="80" class="c3"></rect>
+  <path d="M 880,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 40,120 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <path d="M 80,80 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="92" cy="100" r="4" class="c3"></circle>
+  <path d="M 120,120 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 1160,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <circle cx="1188" cy="340" r="4" class="c3"></circle>
+  <path d="M 1200,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <rect width="40" height="40" x="1160" y="360" class="c7"></rect>
+  <path d="M 1200,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 1160,440 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 560,200 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <circle cx="588" cy="180" r="4" class="c4"></circle>
+  <path d="M 600,160 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <path d="M 600,240 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 600,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <path d="M 640,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 560,640 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 600,600 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <circle cx="612" cy="620" r="4" class="c7"></circle>
+  <path d="M 640,680 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c4"></path>
+  <path d="M 640,480 a 40,40 0 0 1 40,-40 l 0,40 z" class="c5"></path>
+  <path d="M 680,440 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="692" cy="460" r="4" class="c5"></circle>
+  <rect width="40" height="40" x="680" y="480" class="c3"></rect>
+  <path d="M 720,520 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 80,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c4"></path>
+  <path d="M 120,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <circle cx="132" cy="220" r="4" class="c4"></circle>
+  <path d="M 160,240 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 720,360 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <circle cx="748" cy="340" r="4" class="c5"></circle>
+  <path d="M 760,320 a 40,40 0 0 1 40,40 l -40,0 z" class="c5"></path>
+  <rect width="40" height="40" x="720" y="360" class="c3"></rect>
+  <path d="M 760,400 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 720,440 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c3"></path>
+  <path d="M 720,560 a 40,40 0 0 1 40,-40 l 0,40 z" class="c3"></path>
+  <circle cx="748" cy="540" r="4" class="c6"></circle>
+  <path d="M 760,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <path d="M 760,600 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c3"></path>
+  <path d="M 760,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <path d="M 800,600 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 1240,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 1280,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <circle cx="1292" cy="220" r="4" class="c7"></circle>
+  <path d="M 1320,280 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c4"></path>
+  <path d="M 1240,440 a 40,40 0 0 1 40,-40 l 0,40 z" class="c4"></path>
+  <path d="M 1280,400 a 40,40 0 0 1 40,40 l -40,0 z" class="c3"></path>
+  <circle cx="1292" cy="420" r="4" class="c4"></circle>
+  <rect width="40" height="40" x="1280" y="440" class="c3"></rect>
+  <path d="M 1320,480 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c3"></path>
+  <path d="M 200,600 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <path d="M 240,560 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <circle cx="252" cy="580" r="4" class="c7"></circle>
+  <path d="M 280,600 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c6"></path>
+  <path d="M 1280,240 a 40,40 0 0 1 40,-40 l 0,40 z" class="c7"></path>
+  <circle cx="1308" cy="220" r="4" class="c6"></circle>
+  <path d="M 1320,200 a 40,40 0 0 1 40,40 l -40,0 z" class="c6"></path>
+  <rect width="40" height="40" x="1280" y="240" class="c7"></rect>
+  <path d="M 1320,280 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c7"></path>
+  <path d="M 1280,320 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c7"></path>
+  <path d="M 320,520 a 40,40 0 0 1 40,-40 l 0,40 z" class="c4"></path>
+  <circle cx="348" cy="500" r="4" class="c7"></circle>
+  <path d="M 360,480 a 40,40 0 0 1 40,40 l -40,0 z" class="c7"></path>
+  <path d="M 360,560 a 40,40 0 0 1 -40,-40 l 40,0 z" class="c4"></path>
+  <path d="M 360,520 a 40,40 0 0 1 40,40 l -40,0 z" class="c4"></path>
+  <path d="M 400,560 a 40,40 0 0 1 -40,40 l 0,-40 z" class="c4"></path>
+</svg>

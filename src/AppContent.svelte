@@ -162,7 +162,7 @@
   }
 
   section :global(.CodeMirror .CodeMirror-code .cm-comment) {
-    background: var(--primary-color-2);
+    background: var(--primary-color-1);
     border-radius: 0;
   }
 
@@ -283,7 +283,6 @@
     section {
       width: auto;
       margin: 0 calc(var(--frame) * 2);
-      padding: calc(var(--frame) * 2) 0 calc(var(--frame) * 0.5);
       box-sizing: border-box;
 
       display: flex;
@@ -293,13 +292,12 @@
     }
 
     section :global(button) {
-      /* margin: calc(var(--frame) * 0.5) auto; */
     }
 
     section :global(button.slim) {
       display: block;
       position: sticky;
-      margin-right: var(--frame);
+      margin: calc(3 * var(--frame)) var(--frame) calc(-3 * var(--frame)) 0;
       top: var(--frame);
       z-index: 100;
       align-self: flex-end;
@@ -313,9 +311,10 @@
     }
 
     section :global(.CodeMirror-scroll) {
+      margin: 0 !important;
+      overflow: hidden !important;
       padding: calc(var(--frame) * 1) calc(var(--frame) * 1.5);
       box-sizing: border-box;
-      overflow-x: hidden !important;
     }
 
     section :global(.editor-preview) {
