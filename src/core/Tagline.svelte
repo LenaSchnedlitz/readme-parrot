@@ -22,7 +22,7 @@
     -webkit-text-fill-color: transparent;
   }
 
-  @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
+  @supports (background: -webkit-named-image(i)) {
     /* safari only - fixes gradient text */
     p :global(strong) {
       -webkit-box-decoration-break: clone;
