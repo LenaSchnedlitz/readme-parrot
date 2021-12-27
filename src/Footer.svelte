@@ -14,6 +14,7 @@
     </svg>
     <strong>{author}</strong>
   </a>
+  &nbsp; 🦜
 </footer>
 
 <style>
@@ -22,7 +23,6 @@
     justify-content: center;
     align-items: center;
     padding: 1.25rem;
-    background: var(--primary-color-1);
   }
 
   svg {
@@ -32,11 +32,11 @@
   }
 
   circle {
-    fill: var(--primary-color-9);
+    fill: var(--grey-9);
   }
 
   path {
-    fill: var(--primary-color-1);
+    fill: var(--grey-1);
   }
 
   a {
@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
 
-    color: var(--primary-color-9);
+    color: var(--grey-9);
     font-family: var(--sans-serif);
     font-size: 14px;
     font-weight: 400;
@@ -62,8 +62,11 @@
     color: var(--grey-9);
   }
 
-  a:hover circle,
-  a:focus-visible circle {
+  a:hover circle {
+    fill: #e37;
+  }
+
+  a:hover path {
     fill: var(--grey-9);
   }
 
