@@ -22,6 +22,14 @@
     -webkit-text-fill-color: transparent;
   }
 
+  @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
+    /* safari only - fixes gradient text */
+    p :global(strong) {
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+    }
+  }
+
   @media all and (min-width: 900px) {
     p {
       font-size: 3.5rem;
