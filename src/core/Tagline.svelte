@@ -11,7 +11,7 @@
     font-weight: 600;
     line-height: 1.25;
 
-    background: radial-gradient(ellipse, var(--primary-color-1), transparent 80%);
+    background: radial-gradient(ellipse, var(--primary-color-1), var(--primary-color-1-transparent) 80%);
   }
 
   p :global(strong) {

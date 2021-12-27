@@ -71,6 +71,8 @@
     --primary-color-8: #f3f1ba;
     --primary-color-9: #f9f8dc;
 
+    --primary-color-1-transparent: rgba(45, 44, 16, 0);
+
     --secondary-color-2: #203d5a;
     --secondary-color-3: #315c86;
     --secondary-color-4: #417ab3;
@@ -113,6 +115,8 @@
     --primary-color-7: #eceb97;
     --primary-color-8: #f3f1ba;
     --primary-color-9: #f9f8dc;
+
+    --primary-color-1-transparent: rgba(45, 44, 16, 0);
 
     --secondary-color-2: #203d5a;
     --secondary-color-3: #315c86;
