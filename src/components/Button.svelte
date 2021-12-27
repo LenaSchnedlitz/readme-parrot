@@ -42,8 +42,14 @@
 
   button:hover {
     color: var(--grey-1);
-    background: linear-gradient(to right, var(--primary-color), var(--tertiary-color-6));
-    box-shadow: none;
+    background: linear-gradient(
+      to right,
+      var(--secondary-color-6) -90%,
+      var(--primary-color) 10%,
+      var(--tertiary-color)
+    );
+    box-shadow: 18px 18px 34px 0px rgba(0, 0, 0, 0.125), inset -4px -4px 8px 0px rgba(0, 0, 0, 0.125),
+      inset 0px 6px 14px 0px rgba(255, 255, 255, 0.375);
   }
 
   button.primary {
@@ -52,7 +58,7 @@
       to right,
       var(--secondary-color-6) 13%,
       var(--primary-color),
-      var(--tertiary-color) 100%
+      var(--tertiary-color)
     );
     background-size: 200% auto;
     border: none;
