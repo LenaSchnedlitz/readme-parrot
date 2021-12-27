@@ -80,7 +80,7 @@
     font-size: 0.75rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--primary-color-7);
+    color: var(--secondary-color-8);
 
     --toggle-height: 20px;
   }
@@ -107,8 +107,8 @@
     height: var(--toggle-height);
     margin: 0 0.5em;
 
-    background: var(--primary-color-5);
-    color: var(--primary-color-5);
+    background: var(--secondary-color-3);
+    color: var(--secondary-color-3);
 
     border-radius: var(--toggle-height);
     cursor: pointer;
