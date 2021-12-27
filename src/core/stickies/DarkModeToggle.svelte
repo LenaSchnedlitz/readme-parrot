@@ -49,6 +49,10 @@
   });
 </script>
 
+<svelte:head>
+  <meta content={currentTheme === THEMES.DARK ? '#14140a' : '#fafaf0'} name="theme-color" />
+</svelte:head>
+
 <label>
   <Aria>{currentTheme} mode</Aria>
   <BigScreenOnly ariaHidden="true">{THEMES.DARK}</BigScreenOnly>
