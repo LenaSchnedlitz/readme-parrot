@@ -89,10 +89,6 @@
 
     --tertiary-color-2-transparent: rgba(96, 35, 42, 0);
   }
-
-  body:not(.light) ::selection {
-    background: var(--secondary-color-6);
-  }
 }
 
 @media all {
@@ -135,9 +131,5 @@
     --tertiary-color-8: #f9bcc3;
 
     --tertiary-color-2-transparent: rgba(96, 35, 42, 0);
-  }
-
-  body.dark ::selection {
-    background: var(--secondary-color-6);
   }
 }

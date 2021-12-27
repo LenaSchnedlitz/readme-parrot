@@ -105,11 +105,15 @@
   }
 
   section :global(.CodeMirror) {
-    background: var(--grey-0);
+    background: var(--grey-1);
     border: none;
     border-radius: 0 0 2px 2px;
     color: var(--grey-9);
     height: auto;
+    box-shadow: none;
+  }
+
+  section :global(.editor-toolbar.disabled-for-preview + .CodeMirror) {
     box-shadow: 8px 14px 38px rgba(0, 0, 0, 0.1), 1px 3px 8px rgba(0, 0, 0, 0.05);
   }
 
@@ -123,6 +127,16 @@
     line-height: 1.75;
   }
 
+  section :global(.CodeMirror .CodeMirror-code .cm-tag),
+  section :global(.CodeMirror .CodeMirror-code .cm-attribute) {
+    color: var(--grey-5);
+  }
+
+  section :global(.CodeMirror .CodeMirror-code .cm-string) {
+    color: var(--grey-9);
+    font-style: italic;
+  }
+
   section :global(.CodeMirror .CodeMirror-code .cm-header-1),
   section :global(.CodeMirror .CodeMirror-code .cm-header-2),
   section :global(.CodeMirror .CodeMirror-code .cm-header-3),
@@ -132,47 +146,54 @@
     line-height: 2.6;
   }
 
-  section :global(.CodeMirror .CodeMirror-code .cm-header-1) {
+  section :global(.CodeMirror .CodeMirror-code .cm-header-1),
+  section :global(.editor-preview h1) {
     font-size: 1.802rem;
   }
 
-  section :global(.CodeMirror .CodeMirror-code .cm-header-2) {
+  section :global(.CodeMirror .CodeMirror-code .cm-header-2),
+  section :global(.editor-preview h2) {
     font-size: 1.602rem;
   }
 
-  section :global(.CodeMirror .CodeMirror-code .cm-header-3) {
+  section :global(.CodeMirror .CodeMirror-code .cm-header-3),
+  section :global(.editor-preview h3) {
     font-size: 1.424rem;
   }
 
-  section :global(.CodeMirror .CodeMirror-code .cm-header-4) {
+  section :global(.CodeMirror .CodeMirror-code .cm-header-4),
+  section :global(.editor-preview h4) {
     font-size: 1.266rem;
   }
 
-  section :global(.CodeMirror .CodeMirror-code .cm-header-5) {
+  section :global(.CodeMirror .CodeMirror-code .cm-header-5),
+  section :global(.editor-preview h5) {
     font-size: 1.125rem;
   }
 
-  section :global(.CodeMirror .CodeMirror-code .cm-header-6) {
+  section :global(.CodeMirror .CodeMirror-code .cm-header-6),
+  section :global(.editor-preview h6) {
     font-size: 1rem;
   }
 
-  section :global(.CodeMirror .CodeMirror-selected),
-  section :global(.CodeMirror-selectedtext) {
-    background: var(--secondary-color-2);
-    color: var(--grey-9);
-  }
-
   section :global(.CodeMirror .CodeMirror-code .cm-comment) {
-    background: var(--primary-color-1);
+    background: linear-gradient(to right, var(--secondary-color-2) -100%, var(--primary-color-1) 50%);
     border-radius: 0;
+    padding: 4px 0;
   }
 
   section :global(.CodeMirror .CodeMirror-code .cm-comment:first-child) {
-    border-radius: 2px 0 0 2px;
+    padding-left: 4px;
   }
 
   section :global(.CodeMirror .CodeMirror-code .cm-comment:last-child) {
-    border-radius: 0 2px 2px 0;
+    padding-right: 4px;
+  }
+
+  section :global(.CodeMirror .CodeMirror-selected),
+  section :global(.CodeMirror .CodeMirror-code .CodeMirror-selectedtext) {
+    background: var(--secondary-color-3);
+    color: var(--grey-9);
   }
 
   section :global(.CodeMirror .CodeMirror-code .cm-link) {
@@ -222,7 +243,7 @@
   }
 
   section :global(.editor-preview) {
-    background: var(--grey-1);
+    background: var(--grey-0);
     border: none;
     color: var(--grey-9);
     font-family: var(--sans-serif);
@@ -230,6 +251,15 @@
 
   section :global(.editor-preview a) {
     color: var(--secondary-color-6);
+    text-decoration: none;
+  }
+
+  section :global(.editor-preview br) {
+    display: none;
+  }
+
+  section :global(.editor-preview br + *) {
+    margin-left: 0.5rem;
   }
 
   section :global(.editor-preview h1),
@@ -241,6 +271,7 @@
   section :global(.editor-preview th),
   section :global(.editor-preview strong) {
     font-weight: 600;
+    line-height: 2.6;
   }
 
   section :global(.editor-preview code) {
@@ -248,7 +279,7 @@
   }
 
   section :global(.editor-preview pre) {
-    background: var(--primary-color-1);
+    background: linear-gradient(to right, var(--grey-2) -260%, var(--grey-1) 160%);
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 4px;
@@ -278,6 +309,14 @@
   section :global(.editor-preview hr) {
     margin: 2rem 0;
     border: 1px var(--grey-2);
+  }
+
+  section :global(.editor-preview div[align='center']) {
+    margin-bottom: 4rem;
+  }
+
+  section :global(.editor-preview) {
+    padding: calc(var(--frame) * 1) calc(var(--frame) * 1.5);
   }
 
   @media all and (min-width: 900px) {
@@ -313,11 +352,6 @@
       overflow: hidden !important;
       padding: calc(var(--frame) * 1) calc(var(--frame) * 1.5);
       box-sizing: border-box;
-    }
-
-    section :global(.editor-preview) {
-      padding: calc(var(--frame) * 1) calc(var(--frame) * 1.5);
-      border: solid 1px var(--tertiary-color-2);
     }
   }
 

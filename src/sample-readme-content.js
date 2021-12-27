@@ -25,7 +25,7 @@ export default '' +
   '[Try it out!]()\n' +
   '\n' +
   '## Installation\n' +
-  'To clone and run this application, you need [Git](https://git-scm.com) and [npm](https://npmjs.com).\n' +
+  'To clone and run this application, you need [Git](https://git-scm.com) and [npm.](https://npmjs.com) \n' +
   'Run from your command line:\n' +
   '\n' +
   '```shell\n' +
@@ -40,7 +40,7 @@ export default '' +
   '```\n' +
   '\n' +
   '## How to Use\n' +
-  'This application was built with [Svelte](https://svelte.dev/). To start development mode, follow the [installation steps described above](#installation) and run (from your command line):\n' +
+  'This application was built with [Svelte.](https://svelte.dev/) To start development mode, follow the [installation steps described above](#installation) and run (from your command line):\n' +
   '\n' +
   '```shell\n' +
   '$ npm run dev\n' +
