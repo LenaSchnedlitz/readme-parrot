@@ -2,9 +2,10 @@
   export let primary = false;
   export let slim = false;
   export let onclick: () => void;
+  export let onblur = () => {};
 </script>
 
-<button on:click={onclick} class:primary class:slim>
+<button on:click={onclick} on:blur={onblur} class:primary class:slim>
   <slot />
 </button>
 
@@ -51,10 +52,7 @@
       to right,
       var(--secondary-color-6) 13%,
       var(--primary-color),
-      var(--tertiary-color) 100%,
-      var(--tertiary-color),
-      var(--primary-color),
-      var(--secondary-color-6) 187%
+      var(--tertiary-color) 100%
     );
     background-size: 200% auto;
     border: none;

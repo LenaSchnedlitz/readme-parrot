@@ -18,9 +18,14 @@
     downloadlink.click();
   };
 
+  let freshlyCopied = false;
+
   const copyToClipBoard = async () => {
     await navigator.clipboard.writeText(easymde.value());
+    freshlyCopied = true;
   };
+
+  const resetFlag = () => (freshlyCopied = false);
 
   onMount(() => {
     easymde = new EasyMDE({
@@ -55,7 +60,10 @@
 </script>
 
 <section>
-  <Button slim onclick={copyToClipBoard}><Icon fat name="clipboard" /> Copy</Button>
+  <Button slim onclick={copyToClipBoard} onblur={resetFlag}>
+    <Icon fat name={freshlyCopied ? 'check' : 'clipboard'} />
+    {freshlyCopied ? 'Copied to clipboard' : 'Copy'}
+  </Button>
   <textarea />
   <Button primary onclick={download}><Icon fat name="download" /> Download file</Button>
 </section>

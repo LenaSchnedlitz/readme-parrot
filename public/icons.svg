@@ -53,5 +53,8 @@
             <polyline points="10 15 15 20 20 15"></polyline>
             <path d="M4 4h7a4 4 0 0 1 4 4v12"></path>
         </symbol>
+        <symbol id="check">
+            <polyline points="20 6 9 17 4 12"></polyline>
+        </symbol>
     </defs>
 </svg>
