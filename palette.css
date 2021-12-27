@@ -1,13 +1,14 @@
 :root {
-  --gray-1: #fefefe;
-  --gray-2: #dfdfdf;
-  --gray-3: #c2c2c2;
-  --gray-4: #a4a4a4;
-  --gray-5: #878787;
-  --gray-6: #686868;
-  --gray-7: #4b4b4b;
-  --gray-8: #2d2d2d;
-  --gray-9: #111111;
+  --grey-0: #ffffff;
+  --grey-1: #fefefe;
+  --grey-2: #dfdfdf;
+  --grey-3: #c2c2c2;
+  --grey-4: #a4a4a4;
+  --grey-5: #878787;
+  --grey-6: #686868;
+  --grey-7: #4b4b4b;
+  --grey-8: #2d2d2d;
+  --grey-9: #111111;
 
   --primary-color-1: #f9f8dc;
   --primary-color-2: #f3f1ba;
@@ -49,15 +50,16 @@
 
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
-    --gray-1: #111111;
-    --gray-2: #2d2d2d;
-    --gray-3: #4b4b4b;
-    --gray-4: #686868;
-    --gray-5: #878787;
-    --gray-6: #a4a4a4;
-    --gray-7: #c2c2c2;
-    --gray-8: #dfdfdf;
-    --gray-9: #fefefe;
+    --grey-0: #000000;
+    --grey-1: #111111;
+    --grey-2: #2d2d2d;
+    --grey-3: #4b4b4b;
+    --grey-4: #686868;
+    --grey-5: #878787;
+    --grey-6: #a4a4a4;
+    --grey-7: #c2c2c2;
+    --grey-8: #dfdfdf;
+    --grey-9: #fefefe;
 
     --primary-color-1: #2d2c10;
     --primary-color-2: #5a5821;
@@ -86,24 +88,21 @@
     --tertiary-color-8: #f9bcc3;
 
     --tertiary-color-2-transparent: rgba(96, 35, 42, 0);
-  }
-
-  body:not(.light) ::selection {
-    background: var(--secondary-color-6);
   }
 }
 
 @media all {
   body.dark {
-    --gray-1: #111111;
-    --gray-2: #2d2d2d;
-    --gray-3: #4b4b4b;
-    --gray-4: #686868;
-    --gray-5: #878787;
-    --gray-6: #a4a4a4;
-    --gray-7: #c2c2c2;
-    --gray-8: #dfdfdf;
-    --gray-9: #fefefe;
+    --grey-0: #000000;
+    --grey-1: #111111;
+    --grey-2: #2d2d2d;
+    --grey-3: #4b4b4b;
+    --grey-4: #686868;
+    --grey-5: #878787;
+    --grey-6: #a4a4a4;
+    --grey-7: #c2c2c2;
+    --grey-8: #dfdfdf;
+    --grey-9: #fefefe;
 
     --primary-color-1: #2d2c10;
     --primary-color-2: #5a5821;
@@ -132,9 +131,5 @@
     --tertiary-color-8: #f9bcc3;
 
     --tertiary-color-2-transparent: rgba(96, 35, 42, 0);
-  }
-
-  body.dark ::selection {
-    background: var(--secondary-color-6);
   }
 }

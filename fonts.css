@@ -1,10 +1,45 @@
+@import 'https://www.lenaschnedlitz.me/fonts/Inter/font-face.css';
+
+@font-face {
+  font-display: swap;
+  font-family: 'FeatherIcons';
+  font-weight: 400;
+  src: url('https://www.lenaschnedlitz.me/readme-parrot/icons.woff2') format('woff2');
+}
+
 :root {
-  --sans-serif: 'Montserrat', 'Proxima Nova', 'Poppins', 'Open Sans', sans-serif;
-  --monospace: 'Inconsolata', 'Consolas', 'Ubuntu Mono', monospace;
+  --monospace: 'Victor Mono', monospace;
+}
+
+html {
+  --sans-serif: 'Inter', sans-serif;
+  font-family: var(--sans-serif);
+
+  font-feature-settings: 'calt';
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    --sans-serif: 'Inter var', sans-serif;
+    font-family: var(--sans-serif);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body:not(.light) {
+      font-weight: 410;
+    }
+  }
+
+  body.dark {
+    font-weight: 410;
+  }
 }
 
 .fa {
   font-family: 'FeatherIcons' !important;
+  font-style: normal !important;
 }
 
 .fa-undo:before {
@@ -37,7 +72,7 @@
 .fa-link:before {
   content: '\f0c1';
 }
-.fa-picture-o:before {
+.fa-image:before {
   content: '\f03e';
 }
 .fa-eye:before {
