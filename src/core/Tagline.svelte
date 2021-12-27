@@ -5,16 +5,18 @@
 <style>
   p {
     margin: 0;
-    color: #fefefe;
+    color: var(--grey-9);
     font-family: var(--sans-serif);
     font-size: 2.2rem;
     font-weight: 600;
     line-height: 1.25;
+
+    background: radial-gradient(ellipse, var(--primary-color-1), transparent 80%);
   }
 
   p :global(strong) {
     font-weight: 800;
-    background: linear-gradient(45deg, var(--primary-color), var(--primary-color-7));
+    background: linear-gradient(to right, var(--secondary-color-4) 26%, var(--primary-color), var(--tertiary-color));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -2,7 +2,7 @@
   import Icon from '../../components/Icon.svelte';
 
   const scroll = () => {
-    document.body.scrollTo(0, window.innerHeight);
+    document.body.scrollTo(0, document.body.scrollHeight);
   };
 </script>
 
@@ -21,17 +21,18 @@
   @media all and (min-width: 900px) {
     button {
       position: absolute;
-      display: initial;
       right: var(--frame);
       bottom: calc(var(--frame) - 1rem);
+      z-index: 1000;
       transform: rotate(90deg);
       transform-origin: top right;
+      display: initial;
       padding: 0;
 
       background: transparent;
       border: none;
 
-      color: var(--primary-color-8);
+      color: var(--secondary-color-8);
       font-family: var(--monospace);
       font-size: var(--font-size);
       font-style: italic;

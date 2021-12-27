@@ -9,7 +9,8 @@
     position: absolute;
     bottom: 0;
     left: -15%;
-    stroke: #5a5821;
+    stroke: var(--tertiary-color-2);
     stroke-width: 5px;
+    opacity: 0.5;
   }
 </style>

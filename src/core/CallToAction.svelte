@@ -9,7 +9,7 @@
 <style>
   button {
     align-self: flex-end;
-    color: var(--grey-9);
+    color: var(--secondary-color-8);
     font-family: var(--monospace);
     font-size: var(--font-size);
     font-style: italic;
@@ -20,6 +20,11 @@
 
     cursor: pointer;
     outline: none;
+    transition: all 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+
+    /* move text farther down */
+    margin-top: 2rem;
+    margin-bottom: -2rem;
     z-index: 1;
   }
 
@@ -27,9 +32,14 @@
     bottom: -6px;
   }
 
-  @media all and (min-width: 900px) {
-    button:focus-visible {
-      border-bottom: solid 2px var(--secondary-color);
-    }
+  button:hover {
+    word-spacing: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  button:focus-visible {
+    word-spacing: 0.5rem;
+    padding-right: 0.5rem;
+    color: var(--secondary-color);
   }
 </style>

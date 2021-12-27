@@ -46,9 +46,9 @@
   </section>
   <section class="content">
     <section class="intro">
-      <Tagline>Writing <strong>READMEs</strong> doesn't have to be tedious.</Tagline>
+      <Tagline>A simple <strong>README template</strong> to get you started.</Tagline>
       <CallToAction onclick={action}>
-        Get started now!
+        Try it out now!
         <Icon name="corner-right-down" />
       </CallToAction>
     </section>
@@ -61,12 +61,25 @@
   .landing {
     position: relative;
     height: var(--landing-height);
-    background-color: var(--primary-color);
-    background-image: linear-gradient(to top right, transparent, rgba(255, 255, 255, 0.5)), url('../background.svg');
+    background-color: #f3f2d8;
+    background-image: linear-gradient(to top right, #fafaf055, #fafaf0), url('../background.svg');
     background-repeat: repeat;
     background-position: right top;
     overflow: visible;
   }
+
+  @media (prefers-color-scheme: dark) {
+    :global(body:not(.light)) .landing {
+      background-color: #343319;
+      background-image: linear-gradient(to top right, #14140a55, #14140a), url('../background.svg');
+    }
+  }
+
+  :global(body.dark) .landing {
+    background-color: #343319;
+    background-image: linear-gradient(to top right, #14140a55, #14140a), url('../background.svg');
+  }
+
   .intro {
     padding: var(--frame) calc(var(--frame) * 2) calc(var(--frame) * 0.5);
     z-index: 1;

@@ -12,7 +12,6 @@
     align-items: center;
     padding: var(--frame);
 
-    color: #fefefe;
     font-size: var(--font-size);
     font-weight: 600;
 
