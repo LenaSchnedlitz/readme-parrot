@@ -25,12 +25,11 @@
   @supports (background: -webkit-named-image(i)) {
     /* safari only - fixes gradient text */
     p :global(strong) {
-      background: linear-gradient(to right, var(--secondary-color-4) 26%, var(--tertiary-color) 200%);
+      background: linear-gradient(to right, var(--secondary-color-4) 26%, var(--primary-color) 200%);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-box-decoration-break: clone;
-      box-decoration-break: clone;
     }
   }
 
