@@ -15,6 +15,7 @@
     padding: 0.5rem 1rem;
     border-radius: 24px;
     display: flex;
+    justify-content: center;
 
     background: transparent;
     border: none;

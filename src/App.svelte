@@ -80,24 +80,37 @@
     background-image: linear-gradient(to top right, #14140a55, #14140a), url('../background.svg');
   }
 
-  .intro {
-    padding: var(--frame) calc(var(--frame) * 2) calc(var(--frame) * 0.5);
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-  }
-
-  @media all and (min-width: 900px) {
-    .intro {
-      padding-left: 15vw;
-      padding-right: 15vw;
-      text-align: center;
-    }
-  }
-
   .content {
     position: relative;
     min-height: var(--full-height);
-    margin-top: calc(-0.84 * var(--full-height));
+    margin-top: calc(calc(var(--frame) * 5) - var(--full-height));
+  }
+
+  .intro {
+    padding: var(--frame) var(--frame) calc(var(--frame) * 0.5);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro :global(button) {
+    margin-top: 4rem;
+  }
+
+  @media all and (min-width: 900px) {
+    .content {
+      margin-top: calc(-0.84 * var(--full-height));
+    }
+    .intro {
+      padding-left: 15vw;
+      padding-right: 15vw;
+    }
+
+    .intro :global(button) {
+      /* move text farther down */
+      margin-top: 2rem;
+      margin-bottom: -2rem;
+    }
   }
 </style>

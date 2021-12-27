@@ -74,12 +74,13 @@
     background: var(--grey-1);
     border: none;
     opacity: 1;
-    border-radius: 2px 2px 0 0;
+    border-radius: 0;
   }
 
   section :global(.editor-toolbar i.separator) {
     border-left: 1px solid var(--grey-2);
     border-right: none;
+    margin: 0 3px;
   }
 
   section :global(.editor-toolbar button) {
@@ -254,11 +255,11 @@
     text-decoration: none;
   }
 
-  section :global(.editor-preview br) {
+  section :global(.editor-preview div[align='center'] br) {
     display: none;
   }
 
-  section :global(.editor-preview br + *) {
+  section :global(.editor-preview div[align='center'] br + *) {
     margin-left: 0.5rem;
   }
 
@@ -283,6 +284,9 @@
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 4px;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
   }
 
   section :global(.editor-preview ul),
@@ -319,6 +323,11 @@
     padding: calc(var(--frame) * 1) calc(var(--frame) * 1.5);
   }
 
+  section :global(.CodeMirror-scroll) {
+    padding-left: var(--frame);
+    padding-right: var(--frame);
+  }
+
   @media all and (min-width: 900px) {
     section {
       width: auto;
@@ -329,6 +338,10 @@
       flex-direction: column;
       justify-content: stretch;
       align-items: stretch;
+    }
+
+    section :global(.editor-toolbar) {
+      border-radius: 2px 2px 0 0;
     }
 
     section :global(button.slim) {
