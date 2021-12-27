@@ -71,19 +71,20 @@
   }
 
   section :global(.editor-toolbar) {
-    background: var(--primary-color-1);
+    background: var(--grey-1);
     border: none;
     opacity: 1;
     border-radius: 2px 2px 0 0;
   }
 
   section :global(.editor-toolbar i.separator) {
-    border-left: 1px solid var(--primary-color-2);
+    border-left: 1px solid var(--grey-2);
     border-right: none;
   }
 
   section :global(.editor-toolbar button) {
     color: var(--primary-color-8) !important;
+    border-radius: 24px;
   }
 
   section :global(.editor-toolbar.disabled-for-preview button) {
@@ -291,11 +292,8 @@
       align-items: stretch;
     }
 
-    section :global(button) {
-    }
-
     section :global(button.slim) {
-      display: block;
+      display: flex;
       position: sticky;
       margin: calc(3 * var(--frame)) var(--frame) calc(-3 * var(--frame)) 0;
       top: var(--frame);
@@ -328,15 +326,5 @@
       width: 1400px;
       margin: 0 auto;
     }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :global(body:not(.light)) section :global(.editor-toolbar) {
-      background: var(--grey-1);
-    }
-  }
-
-  :global(body.dark) section :global(.editor-toolbar) {
-    background: var(--grey-1);
   }
 </style>
