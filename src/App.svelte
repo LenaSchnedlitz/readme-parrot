@@ -62,7 +62,7 @@
     position: relative;
     height: var(--landing-height);
     background-color: #f3f2d8;
-    background-image: linear-gradient(to top right, #fafaf055, #fafaf0), url('../background.svg');
+    background-image: linear-gradient(to right, #fbf9e755, #f7f7d4bb 40%, #d4eae255 120%), url('../background.svg');
     background-repeat: repeat;
     background-position: right top;
     overflow: visible;

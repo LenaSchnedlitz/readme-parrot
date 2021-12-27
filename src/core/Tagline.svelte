@@ -15,8 +15,8 @@
   }
 
   p :global(strong) {
-    font-weight: 800;
-    background: linear-gradient(to right, var(--secondary-color-4) 26%, var(--primary-color), var(--tertiary-color));
+    font-weight: 600;
+    background: linear-gradient(to right, var(--secondary-color-4) 26%, var(--primary-color-6), var(--tertiary-color));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
