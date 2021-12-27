@@ -55,7 +55,7 @@
     <AppContent bind:editor />
   </section>
 </main>
-<Footer author="Lena Schnedlitz" projectLink="https://gitlab.com/LenaSchnedlitz/readme-parrot" />
+<Footer author="Lena Schnedlitz" projectLink="https://github.com/LenaSchnedlitz/readme-parrot" />
 
 <style>
   .landing {
