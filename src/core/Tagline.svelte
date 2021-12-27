@@ -27,6 +27,7 @@
     p :global(strong) {
       -webkit-box-decoration-break: clone;
       box-decoration-break: clone;
+      background: linear-gradient(to right, var(--secondary-color-4) 26%, var(--tertiary-color) 200%);
     }
   }
 
